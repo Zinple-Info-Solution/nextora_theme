@@ -1,14 +1,20 @@
 app_name = "nextora_theme"
 app_title = "Nextora"
-app_publisher = "akshay"
+app_publisher = "Nextora"
 app_description = "theme app"
 app_email = "akshayr@zinple.com"
 app_license = "mit"
+app_version = "1.0.0"
 
 # Apps
 # ------------------
 
 # required_apps = []
+
+website_context = {
+    "favicon": "/assets/nextora_theme/images/datavlue-new-icon-xs.png",
+    "splash_image": "/assets/nextora_theme/images/theme_splash_empty.jpg"
+}
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -25,13 +31,35 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/nextora_theme/css/nextora_theme.css"
-# app_include_js = "/assets/nextora_theme/js/nextora_theme.js"
+app_include_css = [
+    "/assets/nextora_theme/plugins/animate.css/animate.min.css",
+    "/assets/nextora_theme/plugins/fontawesome/all.min.css",
+    "/assets/nextora_theme/plugins/tooltip/tooltip-theme-twipsy.css",
+    "/assets/nextora_theme/plugins/flat-icons/flaticon.css",
+    "/assets/nextora_theme/plugins/simple-calendar/simple-calendar.css",
+    "nextora_theme.bundle.css"
+]
 
+app_include_js = [
+    "/assets/nextora_theme/plugins/vue/vue.runtime.min.js",
+    "/assets/nextora_theme/plugins/bootstrap4c-chosen/chosen.min.js",
+    "/assets/nextora_theme/plugins/nicescroll/nicescroll.js",
+    "/assets/nextora_theme/plugins/tooltip/tooltip.js",
+    "/assets/nextora_theme/plugins/jquery-fullscreen/jquery.fullscreen.min.js?ver=1",
+    "/assets/nextora_theme/plugins/simple-calendar/jquery.simple-calendar.js",
+    "/assets/nextora_theme/js/nextora_theme.app.min.js"
+    # "nextora_theme.bundle.js"
+]
+email_brand_image = "assets/nextora_theme/images/logo-v.png"
 # include js, css files in header of web template
-# web_include_css = "/assets/nextora_theme/css/nextora_theme.css"
-# web_include_js = "/assets/nextora_theme/js/nextora_theme.js"
-
+web_include_css = [
+    "assets/nextora_theme/plugins/fontawesome/all.min.css",
+    "assets/nextora_theme/css/login.css",
+    "assets/nextora_theme/css/dv-login.css?ver=" + app_version
+]
+web_include_js = [
+    "/assets/nextora_theme/js/nextora_theme.web.min.js?ver=" + app_version
+]
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "nextora_theme/public/scss/website"
 
