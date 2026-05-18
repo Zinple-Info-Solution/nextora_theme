@@ -64,6 +64,262 @@ By: akshay
 </div>
 {% endmacro %}
 
+{% macro hero_bg() %}
+<!-- Shared Hero Background — 30% logo top / 70% animated cards bottom -->
+<div style="width:100%;border-radius:24px;background:linear-gradient(135deg,#daeeff 0%,#f0f8ff 55%,#E6F1FB 100%);overflow:hidden;">
+
+    <style>
+        @keyframes floatA{0%,100%{transform:translateY(0px) rotate(-2deg)}50%{transform:translateY(-12px) rotate(-2deg)}}
+        @keyframes floatB{0%,100%{transform:translateY(0px) rotate(1.5deg)}50%{transform:translateY(-16px) rotate(1.5deg)}}
+        @keyframes floatC{0%,100%{transform:translateY(0px) rotate(-1deg)}50%{transform:translateY(-10px) rotate(-1deg)}}
+        @keyframes floatD{0%,100%{transform:translateY(0px) rotate(2deg)}50%{transform:translateY(-14px) rotate(2deg)}}
+        @keyframes barGrow{from{width:0}to{width:var(--w)}}
+        @keyframes lineIn{from{stroke-dashoffset:300}to{stroke-dashoffset:0}}
+        @keyframes cloudMove{from{transform:translateX(-160px)}to{transform:translateX(1200px)}}
+        @keyframes fadeSlide{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+        @keyframes logoPop{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
+
+        .lc-card{position:absolute;background:white;border-radius:16px;padding:14px 16px;box-shadow:0 8px 32px rgba(55,138,221,.15),0 1.5px 6px rgba(55,138,221,.08);border:.5px solid #B5D4F4;z-index:2}
+        .lc-card-title{font-size:12px;font-weight:600;color:#0C447C;margin-bottom:10px}
+        .lc-bar-row{display:flex;align-items:center;gap:6px;margin-bottom:5px}
+        .lc-bar-label{font-size:10px;color:#185FA5;width:52px;flex-shrink:0}
+        .lc-bar-track{flex:1;height:6px;background:#E6F1FB;border-radius:3px;overflow:hidden}
+        .lc-bar-fill{height:100%;border-radius:3px;animation:barGrow .9s cubic-bezier(.4,0,.2,1) both;width:var(--w)}
+        .lc-bar-val{font-size:10px;color:#378ADD;width:28px;text-align:right;flex-shrink:0}
+        .lc-stat-row{display:flex;gap:7px;margin-bottom:10px}
+        .lc-stat-box{flex:1;background:#E6F1FB;border-radius:8px;padding:7px 9px;border:.5px solid #B5D4F4}
+        .lc-stat-label{font-size:9px;color:#378ADD;margin-bottom:2px}
+        .lc-stat-val{font-size:13px;font-weight:600;color:#0C447C}
+        .lc-inv-row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:.5px solid #E6F1FB;font-size:10px}
+        .lc-inv-row:last-child{border-bottom:none}
+        .lc-dot-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;margin-top:5px}
+        .lc-dot{width:7px;height:7px;border-radius:50%;background:#E6F1FB}
+        .ln{animation:lineIn 1.4s ease both;stroke-dasharray:300}
+    </style>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- TOP 30% — Logo section (normal document flow, no absolute positioning) -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div style="padding:32px 24px 20px;text-align:center;animation:fadeSlide .9s ease both;position:relative;z-index:3;">
+        <img
+            src="/assets/nextora_theme/images/NextOra-removebg-preview.png"
+            alt="NextOra ERP"
+            style="width:200px;display:block;margin:0 auto;animation:logoPop 1s cubic-bezier(.34,1.56,.64,1) both;filter:drop-shadow(0 4px 16px rgba(55,138,221,.18));"
+        />
+        <div style="font-size:13px;color:#378ADD;margin-top:10px;font-family:'Segoe UI',Arial,sans-serif;font-weight:400;letter-spacing:.02em;">
+            Complete Business Management
+        </div>
+        <div style="font-size:15px;color:#121518;margin-top:3px;font-family:'Segoe UI',Arial,sans-serif;">
+            Powered by NextOraERP
+        </div>
+        <div style="display:inline-block;margin-top:14px;background:#185FA5;color:white;font-size:12px;font-weight:500;padding:8px 24px;border-radius:20px;font-family:'Segoe UI',Arial,sans-serif;letter-spacing:.02em;cursor:pointer;box-shadow:0 4px 14px rgba(24,95,165,.25);">
+            Explore →
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- BOTTOM 70% — Animated floating cards -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div style="position:relative;height:390px;overflow:hidden;">
+
+        <!-- Background accent circles -->
+        <div style="position:absolute;width:260px;height:260px;background:radial-gradient(circle,rgba(55,138,221,.08) 0%,transparent 70%);top:-60px;right:-40px;border-radius:50%;pointer-events:none"></div>
+        <div style="position:absolute;width:180px;height:180px;background:radial-gradient(circle,rgba(55,138,221,.06) 0%,transparent 70%);bottom:40px;left:40px;border-radius:50%;pointer-events:none"></div>
+
+        <!-- Moving clouds -->
+        <svg style="position:absolute;top:20px;left:-100px;opacity:.5;animation:cloudMove 22s linear infinite;pointer-events:none" width="120" height="40" viewBox="0 0 120 40">
+            <ellipse cx="60" cy="28" rx="55" ry="16" fill="white"/>
+            <ellipse cx="80" cy="20" rx="32" ry="18" fill="white"/>
+            <ellipse cx="36" cy="22" rx="24" ry="15" fill="white"/>
+        </svg>
+        <svg style="position:absolute;top:55px;left:-100px;opacity:.35;animation:cloudMove 30s linear infinite 8s;pointer-events:none" width="90" height="30" viewBox="0 0 90 30">
+            <ellipse cx="45" cy="22" rx="42" ry="12" fill="white"/>
+            <ellipse cx="62" cy="15" rx="24" ry="14" fill="white"/>
+            <ellipse cx="28" cy="17" rx="18" ry="12" fill="white"/>
+        </svg>
+
+        <!-- CARD 1: Account Receivable — top left -->
+        <div class="lc-card" style="width:210px;top:18px;left:18px;animation:floatA 5.5s ease-in-out infinite;">
+            <div class="lc-card-title">Account Receivable</div>
+            <div style="display:flex;height:7px;border-radius:4px;overflow:hidden;gap:1px;margin-bottom:8px">
+                <div style="flex:3;background:#185FA5;border-radius:3px 0 0 3px"></div>
+                <div style="flex:1.5;background:#378ADD"></div>
+                <div style="flex:2;background:#85B7EB"></div>
+                <div style="flex:1;background:#B5D4F4;border-radius:0 3px 3px 0"></div>
+            </div>
+            <div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap">
+                <span style="font-size:9px;color:#185FA5">● 121-Above</span>
+                <span style="font-size:9px;color:#378ADD">● 91-120</span>
+                <span style="font-size:9px;color:#85B7EB">● 61-90</span>
+                <span style="font-size:9px;color:#B5D4F4">● 31-60</span>
+            </div>
+            <div class="lc-inv-row">
+                <span style="color:#185FA5;font-weight:500">5MP Camera</span>
+                <span style="color:#85B7EB;font-size:9px">Raw Material</span>
+                <span style="font-weight:600;color:#0C447C">₹42,000</span>
+            </div>
+            <div class="lc-inv-row">
+                <span style="color:#185FA5;font-weight:500">MacBook Air</span>
+                <span style="color:#85B7EB;font-size:9px">Fixed Asset</span>
+                <span style="font-weight:600;color:#0C447C">₹1,24,000</span>
+            </div>
+            <div class="lc-inv-row">
+                <span style="color:#185FA5;font-weight:500">Dell Monitor</span>
+                <span style="color:#85B7EB;font-size:9px">Raw Material</span>
+                <span style="font-weight:600;color:#0C447C">₹28,500</span>
+            </div>
+        </div>
+
+        <!-- CARD 2: Profit and Loss — top right -->
+        <div class="lc-card" style="width:275px;top:18px;right:18px;animation:floatB 6s ease-in-out infinite .5s;">
+            <div class="lc-card-title">Profit and Loss Statement</div>
+            <div class="lc-stat-row">
+                <div class="lc-stat-box">
+                    <div class="lc-stat-label">Total Income</div>
+                    <div class="lc-stat-val">₹11.4L</div>
+                </div>
+                <div class="lc-stat-box" style="background:#FAECE7;border-color:#F5C4B3">
+                    <div class="lc-stat-label" style="color:#993C1D">Expenses</div>
+                    <div class="lc-stat-val" style="color:#712B13">-₹4.7L</div>
+                </div>
+                <div class="lc-stat-box" style="background:#E1F5EE;border-color:#9FE1CB">
+                    <div class="lc-stat-label" style="color:#085041">Net Profit</div>
+                    <div class="lc-stat-val" style="color:#04342C">₹6.7L</div>
+                </div>
+            </div>
+            <svg width="100%" height="55" viewBox="0 0 240 55">
+                <rect x="5"   y="15" width="14" height="35" fill="#378ADD" rx="2"/><rect x="5"   y="40" width="14" height="10" fill="#E24B4A" rx="1"/>
+                <rect x="25"  y="10" width="14" height="40" fill="#185FA5" rx="2"/><rect x="25"  y="42" width="14" height="8"  fill="#E24B4A" rx="1"/>
+                <rect x="45"  y="6"  width="14" height="44" fill="#185FA5" rx="2"/><rect x="45"  y="40" width="14" height="10" fill="#E24B4A" rx="1"/>
+                <rect x="65"  y="12" width="14" height="38" fill="#378ADD" rx="2"/><rect x="65"  y="44" width="14" height="6"  fill="#E24B4A" rx="1"/>
+                <rect x="85"  y="4"  width="14" height="46" fill="#185FA5" rx="2"/><rect x="85"  y="42" width="14" height="8"  fill="#E24B4A" rx="1"/>
+                <rect x="105" y="10" width="14" height="40" fill="#378ADD" rx="2"/><rect x="105" y="44" width="14" height="6"  fill="#E24B4A" rx="1"/>
+                <rect x="125" y="16" width="14" height="34" fill="#85B7EB" rx="2"/><rect x="125" y="46" width="14" height="4"  fill="#E24B4A" rx="1"/>
+                <rect x="145" y="8"  width="14" height="42" fill="#185FA5" rx="2"/><rect x="145" y="42" width="14" height="8"  fill="#E24B4A" rx="1"/>
+                <rect x="165" y="14" width="14" height="36" fill="#378ADD" rx="2"/><rect x="165" y="44" width="14" height="6"  fill="#E24B4A" rx="1"/>
+                <rect x="185" y="18" width="14" height="32" fill="#85B7EB" rx="2"/><rect x="185" y="46" width="14" height="4"  fill="#E24B4A" rx="1"/>
+                <rect x="205" y="10" width="14" height="40" fill="#378ADD" rx="2"/><rect x="205" y="44" width="14" height="6"  fill="#E24B4A" rx="1"/>
+                <rect x="225" y="14" width="14" height="36" fill="#85B7EB" rx="2"/><rect x="225" y="46" width="14" height="4"  fill="#E24B4A" rx="1"/>
+            </svg>
+        </div>
+
+        <!-- CARD 3: Sales Summary — middle left -->
+        <div class="lc-card" style="width:195px;top:200px;left:18px;animation:floatC 7s ease-in-out infinite 1.2s;">
+            <div class="lc-card-title">Sales Summary</div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">Jan</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:60%;background:#378ADD;animation-delay:.1s"></div></div>
+                <span class="lc-bar-val">₹6.2L</span>
+            </div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">Feb</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:45%;background:#85B7EB;animation-delay:.2s"></div></div>
+                <span class="lc-bar-val">₹4.8L</span>
+            </div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">Mar</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:82%;background:#185FA5;animation-delay:.3s"></div></div>
+                <span class="lc-bar-val">₹8.4L</span>
+            </div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">Apr</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:55%;background:#378ADD;animation-delay:.4s"></div></div>
+                <span class="lc-bar-val">₹5.9L</span>
+            </div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">May</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:90%;background:#0C447C;animation-delay:.5s"></div></div>
+                <span class="lc-bar-val">₹9.6L</span>
+            </div>
+            <div style="margin-top:8px;display:flex;justify-content:space-between;border-top:.5px solid #E6F1FB;padding-top:6px">
+                <span style="font-size:9px;color:#85B7EB">Total YTD</span>
+                <span style="font-size:11px;font-weight:700;color:#0C447C">₹48.2L</span>
+            </div>
+        </div>
+
+        <!-- CARD 4: Account Dashboard — middle right -->
+        <div class="lc-card" style="width:265px;top:195px;right:18px;animation:floatD 6s ease-in-out infinite .7s;">
+            <div class="lc-card-title">Account Dashboard</div>
+            <div style="font-size:10px;color:#378ADD;margin-bottom:1px">Outgoing Bills (Sales Invoice)</div>
+            <div style="font-size:9px;color:#85B7EB;margin-bottom:8px">Last updated 40 min ago</div>
+            <svg width="100%" height="52" viewBox="0 0 240 52">
+                <rect x="5"   y="34" width="12" height="16" fill="#B5D4F4" rx="1"/>
+                <rect x="22"  y="26" width="12" height="24" fill="#85B7EB" rx="1"/>
+                <rect x="39"  y="16" width="12" height="34" fill="#378ADD" rx="1"/>
+                <rect x="56"  y="28" width="12" height="22" fill="#B5D4F4" rx="1"/>
+                <rect x="73"  y="10" width="12" height="40" fill="#185FA5" rx="1"/>
+                <rect x="90"  y="22" width="12" height="28" fill="#85B7EB" rx="1"/>
+                <rect x="107" y="30" width="12" height="20" fill="#B5D4F4" rx="1"/>
+                <rect x="124" y="14" width="12" height="36" fill="#378ADD" rx="1"/>
+                <rect x="141" y="20" width="12" height="30" fill="#85B7EB" rx="1"/>
+                <rect x="158" y="4"  width="12" height="46" fill="#185FA5" rx="1"/>
+                <rect x="175" y="24" width="12" height="26" fill="#85B7EB" rx="1"/>
+                <rect x="192" y="12" width="12" height="38" fill="#378ADD" rx="1"/>
+                <rect x="209" y="18" width="12" height="32" fill="#85B7EB" rx="1"/>
+                <rect x="226" y="6"  width="12" height="44" fill="#185FA5" rx="1"/>
+                <circle cx="79" cy="10" r="3.5" fill="#0C447C"/>
+                <rect x="52" y="0" width="68" height="10" rx="3" fill="#0C447C"/>
+                <text x="86" y="8" text-anchor="middle" font-size="7" fill="white" font-family="sans-serif">42170 Bills · Jun 14</text>
+            </svg>
+            <div style="display:flex;justify-content:space-between;font-size:9px;color:#85B7EB;margin-top:3px">
+                <span>Jan</span><span>Mar</span><span>May</span><span>Jul</span><span>Sep</span><span>Nov</span>
+            </div>
+        </div>
+
+        <!-- CARD 5: Overview — bottom left -->
+        <div class="lc-card" style="width:210px;bottom:18px;left:18px;animation:floatD 6.5s ease-in-out infinite .8s;">
+            <div class="lc-card-title">Overview</div>
+            <div style="display:flex;justify-content:space-between;font-size:9px;color:#85B7EB;margin-bottom:4px">
+                <span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span>
+            </div>
+            <div class="lc-dot-grid">
+                <div class="lc-dot"></div><div class="lc-dot" style="background:#85B7EB"></div><div class="lc-dot" style="background:#378ADD"></div><div class="lc-dot"></div>
+                <div class="lc-dot" style="background:#185FA5"></div><div class="lc-dot"></div><div class="lc-dot" style="background:#85B7EB"></div><div class="lc-dot"></div>
+                <div class="lc-dot" style="background:#378ADD"></div><div class="lc-dot" style="background:#185FA5"></div><div class="lc-dot"></div><div class="lc-dot" style="background:#378ADD"></div>
+                <div class="lc-dot" style="background:#185FA5"></div><div class="lc-dot"></div><div class="lc-dot" style="background:#378ADD"></div><div class="lc-dot" style="background:#85B7EB"></div>
+                <div class="lc-dot"></div><div class="lc-dot" style="background:#185FA5"></div><div class="lc-dot" style="background:#378ADD"></div><div class="lc-dot"></div>
+                <div class="lc-dot" style="background:#85B7EB"></div><div class="lc-dot" style="background:#185FA5"></div><div class="lc-dot"></div><div class="lc-dot" style="background:#378ADD"></div>
+            </div>
+            <div style="margin-top:10px;font-size:10px;font-weight:600;color:#0C447C;margin-bottom:5px">Type Distribution</div>
+            <div style="display:flex;height:7px;border-radius:4px;overflow:hidden;gap:1px">
+                <div style="flex:4;background:#185FA5;border-radius:4px 0 0 4px"></div>
+                <div style="flex:2;background:#378ADD"></div>
+                <div style="flex:1.5;background:#85B7EB"></div>
+                <div style="flex:1;background:#B5D4F4;border-radius:0 4px 4px 0"></div>
+            </div>
+        </div>
+
+        <!-- CARD 6: Energy Points — bottom right -->
+        <div class="lc-card" style="width:255px;bottom:18px;right:18px;animation:floatA 5s ease-in-out infinite .3s;">
+            <div class="lc-card-title">Energy Points</div>
+            <div style="font-size:20px;font-weight:700;color:#0C447C">47,625</div>
+            <div style="font-size:9px;color:#85B7EB;margin-bottom:8px">Sep, 2019</div>
+            <svg width="100%" height="42" viewBox="0 0 230 42">
+                <path d="M5 36 Q20 32 38 28 Q58 24 75 18 Q96 11 112 16 Q130 21 148 10 Q165 2 225 6" fill="none" stroke="#EF9F27" stroke-width="2" stroke-linecap="round" class="ln"/>
+                <path d="M5 36 Q20 32 38 28 Q58 24 75 18 Q96 11 112 16 Q130 21 148 10 Q165 2 225 6 L225 42 L5 42 Z" fill="#FAEEDA" opacity="0.45"/>
+                <circle cx="112" cy="16" r="3.5" fill="#EF9F27"/>
+            </svg>
+            <div class="lc-bar-row" style="margin-top:4px">
+                <span class="lc-bar-label">Sales</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:78%;background:#378ADD;"></div></div>
+                <span class="lc-bar-val">78%</span>
+            </div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">Purchase</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:52%;background:#85B7EB;animation-delay:.3s"></div></div>
+                <span class="lc-bar-val">52%</span>
+            </div>
+            <div class="lc-bar-row">
+                <span class="lc-bar-label">HR</span>
+                <div class="lc-bar-track"><div class="lc-bar-fill" style="--w:38%;background:#B5D4F4;animation-delay:.5s"></div></div>
+                <span class="lc-bar-val">38%</span>
+            </div>
+        </div>
+
+    </div><!-- end cards area -->
+</div><!-- end hero bg -->
+{% endmacro %}
+
 {% block page_content %}
 <!-- {{ for_test }} -->
 <div>
@@ -73,11 +329,12 @@ By: akshay
 			<p class="text-muted"> {{ _("You need to enable JavaScript for your app to work.") }}<br>{{ _("To enable it follow the instructions in the following link: {0}").format("<a href='https://enable-javascript.com/'>enable-javascript.com</a></p>") }}
 		</div>
 	</noscript>
+
+	<!-- ═══════════ LOGIN SECTION ═══════════ -->
 	<section class='for-login'>
 		<div class="login-content page-card">
 			<div class="login-content-bg">
-				<img class="app-logo" src="{{ logo }}">
-				<!-- <div data-action="login-api"></div> -->
+				{{ hero_bg() }}
 			</div>
 			<div class="login-content-form">
 				{{ logo_section() }}
@@ -133,11 +390,12 @@ By: akshay
 		{%- endif -%}
 	</section>
 	{%- endif -%}
+
+	<!-- ═══════════ SIGNUP SECTION ═══════════ -->
 	<section class='for-signup {{ "signup-disabled" if disable_signup else "" }}'>
 		<div class="login-content page-card">
 			<div class="login-content-bg">
-				<img class="app-logo" src="{{ logo }}">
-				<!-- <div data-action="login-api"></div> -->
+				{{ hero_bg() }}
 			</div>
 			<div class="login-content-form">
 				{%- if not disable_signup -%}
@@ -159,7 +417,7 @@ By: akshay
 							</div>
 							<div class="form-group">
 								<div class="email-field">
-									<input type="email" id="signup_email" class="form-control" placeholder="{{ _(" Email") }}" autocomplete="current-password" required>
+									<input type="email" id="signup_email" class="form-control" placeholder="{{ _("Email") }}" autocomplete="current-password" required>
 									<span class="field-icon">
 										<i class="fal fa-envelope text-secondary"></i>
 									</span>
@@ -182,14 +440,13 @@ By: akshay
 				{%- endif -%}
 			</div>
 		</div>
-
 	</section>
 
+	<!-- ═══════════ FORGOT PASSWORD SECTION ═══════════ -->
 	<section class='for-forgot'>
 		<div class="login-content page-card">
 			<div class="login-content-bg">
-				<img class="app-logo" src="{{ logo }}">
-				<!-- <div data-action="login-api"></div> -->
+				{{ hero_bg() }}
 			</div>
 			<div class="login-content-form">
 				<form class="form-signin form-forgot hide" role="form">
@@ -212,12 +469,10 @@ By: akshay
 										d="M17.5 7.57572V5.53026C17.5 5.1686 17.3563 4.82176 17.1006 4.56603C16.8449 4.31029 16.498 4.16663 16.1364 4.16663H3.86364C3.50198 4.16663 3.15513 4.31029 2.8994 4.56603C2.64367 4.82176 2.5 5.1686 2.5 5.53026V7.57572L10 10.8333L17.5 7.57572Z"
 										stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square"/>
 							</svg>
-
 						</div>
 					</div>
 					<div class="page-card-actions">
-						<button class="btn btn-sm btn-primary btn-block btn-forgot" type="submit">{{ _("Reset Password") }}
-						</button>
+						<button class="btn btn-sm btn-primary btn-block btn-forgot" type="submit">{{ _("Reset Password") }}</button>
 						<p class="text-center sign-up-message">
 							<a href="#login">{{ _("Back to Login") }}</a>
 						</p>
@@ -232,10 +487,6 @@ By: akshay
 
 {% block script %}
 <script>{% include "templates/includes/login/login.js" %}</script>
-// <script>
-// 	$('[data-action="login-api"]').html(unescape('%3c%69%6d%67%20%63%6c%61%73%73%3d%22%61%70%70%2d%6c%6f%67%69%6e%2d%62%67%22%20%73%72%63%3d%22%2f%61%73%73%65%74%73%2f%64%61%74%61%76%61%6c%75%65%5f%74%68%65%6d%65%5f%31%35%2f%69%6d%61%67%65%73%2f%65%72%70%6e%65%78%74%2d%68%65%72%6f%2d%63%6f%6d%70%72%65%73%73%65%64%2e%70%6e%67%22%3e%0d%0a%09%09%09%09%3c%64%69%76%20%63%6c%61%73%73%3d%22%74%65%78%74%2d%63%65%6e%74%65%72%20%6c%6f%67%69%6e%2d%63%6f%70%79%72%69%67%68%74%73%22%3e%50%6f%77%65%72%65%64%20%42%79%20%3c%61%20%68%72%65%66%3d%22%68%74%74%70%73%3a%2f%2f%77%77%77%2e%64%61%74%61%76%61%6c%75%65%6e%65%74%2e%6e%65%74%2f%22%20%74%61%72%67%65%74%3d%22%5f%62%6c%61%6e%6b%22%3e%44%61%74%61%20%56%61%6c%75%65%3c%2f%61%3e%3c%2f%64%69%76%3e'));
-// </script>
 {% endblock %}
 
 {% block sidebar %}{% endblock %}
-
