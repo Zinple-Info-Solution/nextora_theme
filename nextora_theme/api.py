@@ -6,6 +6,7 @@ from frappe import _
 from frappe.desk.reportview import get_filters_cond
 from frappe.cache_manager import clear_user_cache
 from six import string_types
+import requests
 
 
 @frappe.whitelist()
@@ -229,3 +230,4 @@ def clear():
     frappe.local.db.commit()
     clear_user_cache(frappe.session.user)
     frappe.response['message'] = _("Cache Cleared")
+

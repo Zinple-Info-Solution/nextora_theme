@@ -20,6 +20,7 @@
   "theme_logo",
   "favicon",
   "loading_image",
+  "company_logo",
   "font_style_section",
   "font_family",
   "nextora_theme_installed",
@@ -227,11 +228,16 @@
    "fieldtype": "Check",
    "hidden": 1,
    "label": "Nextora Theme Installed"
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach Image",
+   "label": "Company Logo"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2026-04-11 13:43:23.445513",
+ "modified": "2026-06-10 08:16:28.830487",
  "modified_by": "Administrator",
  "module": "Nextora",
  "name": "Theme Settings",
