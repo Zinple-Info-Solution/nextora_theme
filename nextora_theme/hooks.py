@@ -275,3 +275,24 @@ web_include_js = [
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+fixtures = [
+    {
+        "dt": "Workspace",
+        "filters": [
+            ["name", "in", [
+                "Tax & Benefits",
+                "Leaves",
+                "Salary Payout",
+                "Expense Claims",
+                "Shift & Attendance",
+                "Performance",
+                "Financial Reports",
+                "Receivables",
+                "Employee Lifecycle",
+                "Recruitment",
+                "Payables"
+            ]]
+        ]
+    }
+]
