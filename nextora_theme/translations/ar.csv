@@ -1,0 +1,1122 @@
+Accounting,المحاسبة
+Accounting Masters,البيانات الأساسية للمحاسبة
+company,الشركة
+chart of accounts,دليل الحسابات
+account settings,إعدادات الحسابات
+fiscal years,السنوات المالية
+Accounting Dimensions,تحليل الحركات المالية
+Finance Book,الدفتر المحاسبي
+Accounting Period,الفترة المحاسبية
+Payment term,شروط السداد
+Payments,المدفوعات
+Payment Entry,سند قبض أو صرف
+Journal Entry,قيد يومية
+Journal Entry Template,نموذج قيد يومية
+Terms and conditions,الشروط والأحكام
+Mode of Payment,طرق الدفع
+Tax Masters,إعدادات الضرائب
+Sales Taxes and Charges Template,نموذج ضرائب ورسوم المبيعات
+Purchase Taxes and Charges Template,نموذج ضرائب ورسوم المشتريات
+Item tax template,نموذج ضريبة الصنف
+Tax Category,الفئة الضريبية
+tax rule,القاعدة الضريبية
+tax withholding category,فئة ضريبة الاستقطاع
+cost center and budgeting,مراكز التكلفة والموازنات
+Chart of Cost Centers,دليل مراكز التكلفة
+budget,الموازنة التقديرية
+Cost Center Location,موقع مركز التكلفة
+budget variance report,تقرير انحرافات الموازنة
+monthly distribution,التوزيع الشهري
+multi currency,العملات المتعددة
+currency,العملة
+currency exchange,أسعار صرف العملات
+exchange rate revaluation,إعادة تقييم العملات الأجنبية
+Banking,البنوك
+Bank,البنك
+Bank Account,الحساب البنكي
+Bank Clearance,مقاصة الشيكات البنكية
+Bank reconciliation tool,أداة التسوية البنكية
+Bank reconciliation statement,كشف التسوية البنكية
+plaid settings,إعدادات Plaid
+Opening and closing,الأرصدة الافتتاحية والإقفال
+Opening invoice creation tool,أداة إنشاء الفواتير الافتتاحية
+chart of accounts importer,استيراد دليل الحسابات
+period closing voucher,قيد إقفال الفترة
+Subscription Management,إدارة الاشتراكات
+subscription plan,خطة الاشتراك
+subscription,الاشتراك
+subscription settings,إعدادات الاشتراكات
+Share Management,إدارة الأسهم
+shareholder,المساهم
+share transfer,نقل الأسهم
+share ledger,سجل الأسهم
+share balance,رصيد الأسهم
+Payables,الذمم الدائنة
+Reports & Masters,التقارير والبيانات الأساسية
+purchase invoices,فواتير المشتريات
+supplier,المورد
+payments,المدفوعات
+Payment entry,سند صرف
+payment reconciliation,مطابقة الدفعات مع الفواتير
+Reports,التقارير
+Accounts payable,الذمم الدائنة
+accounts payable summary,ملخص الذمم الدائنة
+purchase register,سجل المشتريات
+item wise purchase register,سجل المشتريات حسب الصنف
+purchase order analysis,تحليل أوامر الشراء
+Received Items To Be Billed,أصناف مستلمة لم تُفوتر بعد
+supplier ledger summary,ملخص كشف حساب الموردين
+Recruitment,التوظيف
+Job opening,شاغر وظيفي
+job applicant,متقدم للوظيفة
+job offer,عرض وظيفي
+Dashboards,لوحات المعلومات
+jobs,الوظائف
+staffing plan,خطة القوى العاملة
+job requisition,طلب احتياج وظيفي
+Employee referral,ترشيح متقدم بواسطة موظف
+Interviews,المقابلات
+Interview Type,نوع المقابلة
+interview Round,مرحلة المقابلة
+interview feedback,تقييم المقابلة
+Appointment,التعيين
+Appointment Letter,خطاب التعيين
+Recruitment Analytics,تحليلات التوظيف
+Receivables,الذمم المدينة
+pos invoice,فاتورة نقطة البيع
+cost center,مركز التكلفة
+invoicing,الفوترة
+customer,العميل
+Payment gateway account,حساب بوابة الدفع
+dunning,إشعار مطالبة بالسداد
+dunning type,نوع إشعار المطالبة
+sales register,سجل المبيعات
+item-wise sales register,سجل المبيعات حسب الصنف
+sales order analysis,تحليل أوامر البيع
+Delivered Items To Be Billed,أصناف مسلّمة لم تُفوتر بعد
+Buying,المشتريات
+item,الصنف
+material request,طلب مواد
+purchase order,أمر شراء
+Purchase Analytics,تحليلات المشتريات
+purchase order analytics,تحليلات أوامر الشراء
+learn procurement,دليل إجراءات الشراء
+purchase invoice,فاتورة مشتريات
+request for quotation,طلب عرض سعر
+supplier quotation,عرض سعر مورد
+Items & Pricing,الأصناف والتسعير
+item price,سعر الصنف
+price list,قائمة الأسعار
+product bundle,أصناف مجمّعة للبيع
+item group,مجموعة الأصناف
+promotional scheme,برنامج العروض الترويجية
+pricing rule,قاعدة التسعير
+Settings,الإعدادات
+buying settings,إعدادات المشتريات
+Terms and Conditions Template,نموذج الشروط والأحكام
+supplier group,مجموعة الموردين
+contact,جهة الاتصال
+Address,العنوان
+Supplier Scorecard,بطاقة تقييم المورد
+Supplier Scorecard variable,عنصر بطاقة تقييم المورد
+Supplier Scorecard criteria,معيار تقييم المورد
+Supplier Scorecard standing,تصنيف المورد
+Key Reports,التقارير الرئيسية
+purchase analytics,تحليلات المشتريات
+Supplier-wise Purchase Analytics,تحليلات المشتريات حسب المورد
+Items To Order and Receive,الأصناف المطلوب طلبها واستلامها
+purchase order trends,تحليل أوامر الشراء حسب الفترة
+procurement tracker,متابعة المشتريات
+Other Reports,تقارير أخرى
+items to be requested,الأصناف المطلوب طلبها
+item wise purchase history,سجل مشتريات الأصناف
+Purchase Invoice Trends,تحليل فواتير المشتريات حسب الفترة
+purchase receipt trends,تحليل أذون استلام المشتريات حسب الفترة
+Subcontracted Raw Materials To Be Transferred,مواد خام مطلوب تحويلها إلى مقاولي الباطن
+Subcontracted Item To Be Received,أصناف مطلوب استلامها من مقاولي الباطن
+Supplier Quotation Comparison,مقارنة عروض أسعار الموردين
+Material Requests for which Supplier Quotations are not created,طلبات مواد لم تُنشأ لها عروض أسعار موردين
+Supplier Addresses and Contacts,عناوين وبيانات اتصال الموردين
+Regional,الخصائص المحلية
+Import Sales Invoice,استيراد فواتير المبيعات
+Financial Reports,التقارير المالية
+Ledgers,دفاتر الأستاذ
+General Ledger,دفتر الأستاذ العام
+Customer Ledger Summary,ملخص كشف حساب العملاء
+Supplier Ledger Summary,ملخص كشف حساب الموردين
+Financial Statements,القوائم المالية
+Trial Balance,ميزان المراجعة
+Profit and Loss Statement,قائمة الدخل
+Balance Sheet,قائمة المركز المالي
+Cash Flow,قائمة التدفقات النقدية
+Consolidated Financial Statement,القوائم المالية الموحدة
+Profitability,الربحية
+Gross Profit,مجمل الربح
+Profitability Analysis,تحليل الربحية
+Sales Invoice Trends,تحليل فواتير المبيعات حسب الفترة
+Trial Balance for Party,ميزان مراجعة العملاء والموردين
+Payment Period Based On Invoice Date,فترة السداد حسب تاريخ الفاتورة
+Sales Partners Commission,عمولات شركاء المبيعات
+Customer Credit Balance,الرصيد الدائن للعميل
+Sales Payment Summary,ملخص تحصيلات المبيعات
+Address And Contacts,العناوين وبيانات الاتصال
+Selling,المبيعات
+Customer,العميل
+Quotation,عرض سعر
+Sales Order,أمر بيع
+Sales Invoice,فاتورة مبيعات
+Blanket Order,اتفاقية بيع مفتوحة
+Sales Partner,شريك المبيعات
+Sales Person,مندوب المبيعات
+Point of Sale,نقطة البيع
+Point-of-Sale Profile,إعدادات تشغيل نقطة البيع
+POS Settings,الإعدادات العامة لنقاط البيع
+POS Opening Entry,فتح وردية نقطة البيع
+POS Closing Entry,إغلاق وردية نقطة البيع
+Loyalty Program,برنامج الولاء
+Loyalty Point Entry,حركة نقاط الولاء
+Items and Pricing,الأصناف والتسعير
+Item,الصنف
+Item Price,سعر الصنف
+Price List,قائمة الأسعار
+Item Group,مجموعة الأصناف
+Product Bundle,أصناف مجمّعة للبيع
+Promotional Scheme,برنامج العروض الترويجية
+Pricing Rule,قاعدة التسعير
+Shipping Rule,قاعدة احتساب رسوم الشحن
+Coupon Code,رمز الخصم
+Selling Settings,إعدادات المبيعات
+Lead Source,مصدر العميل المحتمل
+Customer Group,مجموعة العملاء
+Contact,جهة الاتصال
+Territory,منطقة المبيعات
+Campaign,الحملة التسويقية
+Sales Analytics,تحليلات المبيعات
+Sales Order Analysis,تحليل أوامر البيع
+Sales Funnel,مراحل تحويل العملاء المحتملين
+Sales Order Trends,تحليل أوامر البيع حسب الفترة
+Quotation Trends,تحليل عروض الأسعار حسب الفترة
+Customer Acquisition and Loyalty,استقطاب العملاء وولاؤهم
+Inactive Customers,العملاء غير النشطين
+Sales Person-wise Transaction Summary,ملخص معاملات مندوبي المبيعات
+Item-wise Sales History,سجل مبيعات الأصناف
+Customer Addresses And Contacts,عناوين وبيانات اتصال العملاء
+Available Stock for Packing Items,المخزون المتاح لمكونات الأصناف المجمّعة
+Pending SO Items For Purchase Request,الأصناف المطلوب شراؤها لتغطية أوامر البيع
+Delivery Note Trends,تحليل سندات التسليم حسب الفترة
+Customers Without Any Sales Transactions,العملاء دون معاملات بيع
+Territory Target Variance Based On Item Group,مقارنة المستهدف بالمحقق لمناطق البيع حسب مجموعة الأصناف
+Sales Person Target Variance Based On Item Group,مقارنة المستهدف بالمحقق لمندوبي المبيعات حسب مجموعة الأصناف
+Sales Partner Target Variance Based On Item Group,مقارنة المستهدف بالمحقق لشركاء المبيعات حسب مجموعة الأصناف
+Stock,المخزون
+Items Catalogue,دليل الأصناف
+Item Alternative,الصنف البديل
+Item Manufacturer,الشركة المصنعة للصنف
+Stock Transactions,حركات المخزون
+Material Request,طلب مواد
+Stock Entry,إذن مخزني
+Delivery Note,سند تسليم
+Purchase Receipt,إذن استلام مشتريات
+Pick List,قائمة تجهيز الطلبات
+Delivery Trip,رحلة التوصيل
+Stock Reports,تقارير المخزون
+Stock Ledger,سجل حركة المخزون
+Stock Balance,رصيد المخزون
+Stock Projected Qty,الكمية المتوقعة بالمخزون
+Stock Summary,ملخص المخزون
+Stock Ageing,تحليل أعمار المخزون
+Item Price Stock,مخزون الأصناف وأسعارها
+Warehouse Wise Stock Balance,أرصدة المخزون حسب المستودع
+Stock Settings,إعدادات المخزون
+Warehouse,المستودع
+Unit of Measure (UOM),وحدة القياس
+Item Variant Settings,إعدادات متغيرات الأصناف
+Brand,العلامة التجارية
+Item Attribute,خاصية الصنف
+UOM Conversion Factor,معامل تحويل وحدات القياس
+Serial No and Batch,الأرقام التسلسلية والتشغيلات
+Serial No,الرقم التسلسلي
+Batch,التشغيلة
+Installation Note,محضر التركيب
+Serial No Service Contract Expiry,تاريخ انتهاء عقد صيانة الرقم التسلسلي
+Serial No Status,حالة الرقم التسلسلي
+Serial No Warranty Expiry,تاريخ انتهاء ضمان الرقم التسلسلي
+Tools,الأدوات
+Stock Reconciliation,جرد وتسوية المخزون
+Landed Cost Voucher,سند تحميل التكاليف على المخزون
+Packing Slip,قائمة التعبئة
+Quality Inspection,فحص الجودة
+Quality Inspection Template,نموذج فحص الجودة
+Quick Stock Balance,استعلام رصيد المخزون
+Stock Analytics,تحليلات المخزون
+Purchase Receipt Trends,تحليل أذون استلام المشتريات حسب الفترة
+Purchase Order Analysis,تحليل أوامر الشراء
+Item Shortage Report,تقرير نواقص الأصناف
+Batch-Wise Balance History,سجل الأرصدة حسب التشغيلة
+Requested Items To Be Transferred,الأصناف المطلوبة للتحويل
+Batch Item Expiry Status,حالة صلاحية الأصناف حسب التشغيلة
+Item Prices,أسعار الأصناف
+Itemwise Recommended Reorder Level,مستوى إعادة الطلب المقترح لكل صنف
+Item Variant Details,تفاصيل متغيرات الأصناف
+Maintenance,الصيانة
+Asset Maintenance Team,فريق صيانة الأصول
+Asset Maintenance,صيانة الأصول
+Asset Maintenance Log,سجل صيانة الأصول
+Asset Value Adjustment,تعديل قيمة الأصل
+Asset Repair,إصلاح الأصل
+Asset Capitalization,رسملة الأصل
+Asset Depreciation Ledger,سجل إهلاك الأصول
+Asset Depreciations and Balances,إهلاكات وأرصدة الأصول
+Asset Activity,سجل حركات الأصول
+Assets,الأصول
+Asset,الأصل
+Location,الموقع
+Asset Category,فئة الأصل
+Asset Movement,نقل الأصول
+Fixed asset register,سجل الأصول الثابتة
+Manufacturing,التصنيع
+Production,الإنتاج
+Work Order,أمر إنتاج
+Production Plan,خطة الإنتاج
+Job Card,بطاقة تشغيل
+Downtime Entry,تسجيل توقف الإنتاج
+Bill of Materials,قائمة مكونات المنتج (BOM)
+Workstation Type,نوع مركز العمل
+Workstation,مركز العمل
+Operation,عملية التشغيل
+Routing,مسار التشغيل
+Production Planning Report,تقرير تخطيط الإنتاج
+Work Order Summary,ملخص أوامر الإنتاج
+Quality Inspection Summary,ملخص فحوصات الجودة
+Downtime Analysis,تحليل أوقات التوقف
+Job Card Summary,ملخص بطاقات التشغيل
+BOM Search,البحث في قوائم مكونات المنتج
+BOM Stock Report,تقرير مخزون قوائم مكونات المنتج
+Production Analytics,تحليلات الإنتاج
+BOM Operations Time,أوقات عمليات قائمة مكونات المنتج
+Work Order Consumed Materials,المواد المستهلكة بأوامر الإنتاج
+BOM Update Tool,أداة تحديث قوائم مكونات المنتج
+Manufacturing Settings,إعدادات التصنيع
+Quality,الجودة
+Feedback,الملاحظات
+Quality Feedback,ملاحظات الجودة
+Quality Feedback Template,نموذج ملاحظات الجودة
+Goal and Procedure,أهداف وإجراءات الجودة
+Quality Goal,هدف الجودة
+Quality Procedure,إجراء الجودة
+Tree of Procedures,هيكل الإجراءات
+Meeting,الاجتماع
+Quality Meeting,اجتماع الجودة
+Review and Action,المراجعات والإجراءات
+Non Conformance,عدم المطابقة
+Quality Review,مراجعة الجودة
+Quality Action,إجراء تصحيحي
+Projects,المشاريع
+Project,المشروع
+Task,المهمة
+Project Template,نموذج مشروع
+Project Type,نوع المشروع
+Project Update,تحديث المشروع
+Time Tracking,تتبع الوقت
+Timesheet,كشف ساعات العمل
+Activity Type,نوع النشاط
+Activity Cost,تكلفة النشاط
+Daily Timesheet Summary,ملخص كشوف ساعات العمل اليومية
+Project wise Stock Tracking,تتبع المخزون حسب المشروع
+Project Billing Summary,ملخص فوترة المشروع
+Delayed Tasks Summary,ملخص المهام المتأخرة
+Support,الدعم
+Issues,تذاكر الدعم
+Issue,تذكرة دعم
+Issue Type,نوع التذكرة
+Issue Priority,أولوية التذكرة
+Maintenance Schedule,جدول الصيانة
+Maintenance Visit,زيارة صيانة
+Service Level Agreement,اتفاقية مستوى الخدمة
+Warranty,الضمان
+Warranty Claim,مطالبة ضمان
+Support Settings,إعدادات الدعم
+First Response Time for Issues,وقت الاستجابة الأول لتذاكر الدعم
+Users,المستخدمون
+User,المستخدم
+Role,الدور
+Role Profile,ملف صلاحيات الدور
+Module Profile,ملف صلاحيات الوحدات
+Logs,السجلات
+Activity Log,سجل الأنشطة
+Access Log,سجل الدخول
+Permissions,الصلاحيات
+Role Permissions Manager,إدارة صلاحيات الأدوار
+User Permissions,صلاحيات المستخدم
+Role Permission for Page and Report,صلاحيات الأدوار على الصفحات والتقارير
+Permitted Documents For User,المستندات المسموح للمستخدم بالوصول إليها
+Document Share Report,تقرير مشاركة المستندات
+CRM,إدارة علاقات العملاء
+Sales Pipeline,مسار المبيعات
+Lead,عميل محتمل
+Opportunity,فرصة مبيعات
+Contract,العقد
+Newsletter,النشرة البريدية
+Communication,سجل التواصل
+Masters,البيانات الأساسية
+Prospect,عميل مرتقب
+Sales Stage,مرحلة البيع
+Lead Details,تفاصيل العملاء المحتملين
+Sales Pipeline Analytics,تحليلات مسار المبيعات
+Opportunity Summary by Sales Stage,ملخص فرص المبيعات حسب المرحلة
+Prospects Engaged But Not Converted,عملاء مرتقبون تم التواصل معهم ولم يتحولوا إلى عملاء
+First Response Time for Opportunity,وقت الاستجابة الأول لفرص المبيعات
+Campaign Efficiency,كفاءة الحملات التسويقية
+Lead Owner Efficiency,كفاءة مسؤولي العملاء المحتملين
+Email Campaign,حملة بريدية
+SMS Center,مركز الرسائل النصية
+SMS Log,سجل الرسائل النصية
+Email Group,مجموعة بريدية
+CRM Settings,إعدادات إدارة علاقات العملاء
+SMS Settings,إعدادات الرسائل النصية
+Data,البيانات
+Import Data,استيراد البيانات
+Export Data,تصدير البيانات
+Bulk Update,تحديث جماعي
+Download Backups,تنزيل النسخ الاحتياطية
+Deleted Documents,المستندات المحذوفة
+To Do,قائمة المهام
+Calendar,التقويم
+Note,ملاحظة
+Files,الملفات
+Alerts and Notifications,التنبيهات والإشعارات
+Notification,إشعار
+Auto Email Report,إرسال التقارير تلقائيًا بالبريد
+Notification Settings,إعدادات الإشعارات
+Email,البريد الإلكتروني
+Email Account,حساب البريد الإلكتروني
+Email Domain,نطاق البريد الإلكتروني
+Email Template,قالب البريد الإلكتروني
+Printing,الطباعة
+Print Format Builder,مصمم نماذج الطباعة
+Print Format Builder (New),مصمم نماذج الطباعة (الجديد)
+Print Settings,إعدادات الطباعة
+Print Heading,ترويسة الطباعة
+Automation,الأتمتة
+Assignment Rule,قاعدة الإسناد
+Milestone,مرحلة رئيسية
+Auto Repeat,التكرار التلقائي
+HR,الموارد البشرية
+Setup,الإعدادات
+Company,الشركة
+Branch,الفرع
+Department,القسم
+Designation,المسمى الوظيفي
+Employee,الموظف
+Employee Group,فئة الموظفين
+Employee Grade,الدرجة الوظيفية
+Leaves,الإجازات
+Leave Application,طلب إجازة
+Compensatory Leave Request,طلب إجازة تعويضية
+Attendance,الحضور والانصراف
+Attendance Request,طلب تسجيل أو تصحيح حضور
+Employee Checkin,تسجيل حضور وانصراف الموظف
+Expense Claim,مطالبة مصروفات
+Employee Advance,سلفة موظف
+Travel Request,طلب انتداب
+Monthly Attendance Sheet,كشف الحضور الشهري
+Employee Analytics,تحليلات الموظفين
+Employee Leave Balance,رصيد إجازات الموظف
+Employee Leave Balance Summary,ملخص أرصدة إجازات الموظفين
+Employee Advance Summary,ملخص سلف الموظفين
+Employee Exits,إنهاء خدمات الموظفين
+Employee Information,بيانات الموظفين
+Employee Birthday,أعياد ميلاد الموظفين
+Employees Working on a Holiday,الموظفون العاملون خلال عطلة رسمية
+Daily Work Summary Replies,ردود ملخصات العمل اليومية
+Jobs,الوظائف
+Staffing Plan,خطة القوى العاملة
+Job Requisition,طلب احتياج وظيفي
+Job Opening,شاغر وظيفي
+Job Applicant,متقدم للوظيفة
+Job Offer,عرض وظيفي
+Employee Referral,ترشيح متقدم بواسطة موظف
+Interview Round,مرحلة المقابلة
+Interview,المقابلة
+Interview Feedback,تقييم المقابلة
+Appointment Letter Template,نموذج خطاب التعيين
+Employee Lifecycle,دورة حياة الموظف
+Onboarding,مباشرة العمل
+Employee Onboarding Template,نموذج مباشرة عمل الموظف
+Employee Onboarding,مباشرة عمل الموظف
+Employee Skill Map,مصفوفة مهارات الموظفين
+Grievance,الشكاوى والتظلمات
+Grievance Type,نوع الشكوى أو التظلم
+Employee Grievance,شكوى أو تظلم موظف
+Training,التدريب
+Training Program,البرنامج التدريبي
+Training Event,دورة تدريبية
+Training Feedback,تقييم التدريب
+Training Result,نتيجة التدريب
+Daily Work Summary,ملخص العمل اليومي
+Daily Work Summary Group,مجموعة ملخصات العمل اليومية
+Performance,الأداء
+Appraisal Template,نموذج تقييم الأداء
+KRA,مجالات النتائج الرئيسية (KRA)
+Employee Feedback Criteria,معايير تقييم الموظف
+Appraisal,تقييم الأداء
+Appraisal Cycle,دورة تقييم الأداء
+Employee Performance Feedback,ملاحظات تقييم أداء الموظف
+Goal,الهدف
+Energy Points,نقاط التحفيز
+Energy Point Rule,قاعدة نقاط التحفيز
+Energy Point Settings,إعدادات نقاط التحفيز
+Energy Point Log,سجل نقاط التحفيز
+Promotion,الترقية
+Employee Promotion,ترقية موظف
+Appraisal Overview,نظرة عامة على تقييم الأداء
+Shift & Attendance,الورديات والحضور والانصراف
+Shifts,الورديات
+Shift Type,نوع الوردية
+Shift Assignment,تعيين وردية
+Shift Schedule,جدول الورديات
+Shift Schedule Assignment,تعيين جدول ورديات
+Shift Request,طلب وردية
+Shift Assignment Tool,أداة توزيع الورديات
+Employee Attendance Tool,أداة تسجيل حضور الموظفين
+Upload Attendance,رفع بيانات الحضور
+Time,إدارة الوقت
+Shift Attendance,حضور الورديات
+Employee Hours Utilization Based On Timesheet,معدل الاستفادة من ساعات الموظفين حسب كشوف ساعات العمل
+Project Profitability,ربحية المشاريع
+Employees working on a holiday,الموظفون العاملون خلال عطلة رسمية
+Expense Claims,مطالبات المصروفات
+Claims,المطالبات
+Expense Claim Type,نوع مطالبة المصروفات
+Advances,السلف
+Additional Salary,استحقاق أو استقطاع إضافي
+Fleet Management,إدارة الأسطول
+Vehicle,المركبة
+Driver,السائق
+Vehicle Service Item,بند صيانة المركبة
+Vehicle Log,سجل المركبة
+Vehicle Expenses,مصروفات المركبات
+Travel,الانتدابات
+Purpose of Travel,غرض الانتداب
+Unpaid Expense Claim,مطالبات مصروفات غير مسددة
+Accounting Reports,التقارير المحاسبية
+Accounts Receivable,الذمم المدينة
+Accounts Payable,الذمم الدائنة
+Holiday List,قائمة العطلات الرسمية
+Leave Type,نوع الإجازة
+Leave Period,فترة الإجازات
+Leave Policy,سياسة الإجازات
+Leave Block List,قائمة حظر الإجازات
+Allocation,إدارة أرصدة الإجازات
+Leave Allocation,تخصيص رصيد الإجازة
+Leave Policy Assignment,تعيين سياسة الإجازات
+Leave Control Panel,لوحة إدارة الإجازات
+Leave Encashment,صرف بدل رصيد الإجازات
+Application,الطلبات
+Payroll Entry,مسير الرواتب
+ERPNext Settings,إعدادات ERPNext
+Module Settings,إعدادات الوحدات
+Accounts Settings,إعدادات الحسابات
+Buying Settings,إعدادات المشتريات
+Projects Settings,إعدادات المشاريع
+Email / Notifications,البريد الإلكتروني والإشعارات
+Website,الموقع الإلكتروني
+Website Settings,إعدادات الموقع الإلكتروني
+Website Theme,مظهر الموقع الإلكتروني
+Website Script,كود الموقع الإلكتروني
+About Us Settings,إعدادات «من نحن»
+Contact Us Settings,إعدادات «اتصل بنا»
+Core,الإعدادات الأساسية
+System Settings,إعدادات النظام
+Domain Settings,إعدادات مجالات العمل
+Global Defaults,الإعدادات الافتراضية العامة
+Print Format,نموذج الطباعة
+Print Style,نمط الطباعة
+Workflow,سير العمل
+Workflow State,حالة سير العمل
+Workflow Action,إجراء سير العمل
+Sales Register,سجل المبيعات
+Item-wise Sales Register,سجل المبيعات حسب الصنف
+Payment Gateway Account,حساب بوابة الدفع
+Cost Center,مركز التكلفة
+Accounts Payable Summary,ملخص الذمم الدائنة
+Dunning Type,نوع إشعار المطالبة
+Purchase Invoice,فاتورة مشتريات
+Invoicing,الفوترة
+POS Invoice,فاتورة نقطة البيع
+Supplier,المورد
+Purchase Register,سجل المشتريات
+Payment Reconciliation,مطابقة الدفعات مع الفواتير
+Chart of Accounts,دليل الحسابات
+Dunning,إشعار مطالبة بالسداد
+Currency,العملة
+Accounting masters,البيانات الأساسية للمحاسبة
+Chart Of Accounts,دليل الحسابات
+Chart of accounts,دليل الحسابات
+Account Settings,إعدادات الحسابات
+Account settings,إعدادات الحسابات
+Fiscal Years,السنوات المالية
+Fiscal years,السنوات المالية
+Accounting dimensions,تحليل الحركات المالية
+Finance book,الدفتر المحاسبي
+Accounting period,الفترة المحاسبية
+Payment Term,شروط السداد
+Journal entry,قيد يومية
+Journal entry template,نموذج قيد يومية
+Terms And Conditions,الشروط والأحكام
+Terms and Conditions,الشروط والأحكام
+Mode Of Payment,طرق الدفع
+Mode of payment,طرق الدفع
+Tax masters,إعدادات الضرائب
+Sales Taxes And Charges Template,نموذج ضرائب ورسوم المبيعات
+Sales taxes and charges template,نموذج ضرائب ورسوم المبيعات
+Purchase Taxes And Charges Template,نموذج ضرائب ورسوم المشتريات
+Purchase taxes and charges template,نموذج ضرائب ورسوم المشتريات
+Item Tax Template,نموذج ضريبة الصنف
+Tax category,الفئة الضريبية
+Tax Rule,القاعدة الضريبية
+Tax rule,القاعدة الضريبية
+Tax Withholding Category,فئة ضريبة الاستقطاع
+Tax withholding category,فئة ضريبة الاستقطاع
+Cost Center And Budgeting,مراكز التكلفة والموازنات
+Cost Center and Budgeting,مراكز التكلفة والموازنات
+Cost center and budgeting,مراكز التكلفة والموازنات
+Chart Of Cost Centers,دليل مراكز التكلفة
+Chart of cost centers,دليل مراكز التكلفة
+Budget,الموازنة التقديرية
+Cost center location,موقع مركز التكلفة
+Budget Variance Report,تقرير انحرافات الموازنة
+Budget variance report,تقرير انحرافات الموازنة
+Monthly Distribution,التوزيع الشهري
+Monthly distribution,التوزيع الشهري
+Multi Currency,العملات المتعددة
+Multi currency,العملات المتعددة
+Currency Exchange,أسعار صرف العملات
+Currency exchange,أسعار صرف العملات
+Exchange Rate Revaluation,إعادة تقييم العملات الأجنبية
+Exchange rate revaluation,إعادة تقييم العملات الأجنبية
+Bank account,الحساب البنكي
+Bank clearance,مقاصة الشيكات البنكية
+Bank Reconciliation Tool,أداة التسوية البنكية
+Bank Reconciliation Statement,كشف التسوية البنكية
+Plaid Settings,إعدادات Plaid
+Plaid settings,إعدادات Plaid
+Opening And Closing,الأرصدة الافتتاحية والإقفال
+Opening and Closing,الأرصدة الافتتاحية والإقفال
+Opening Invoice Creation Tool,أداة إنشاء الفواتير الافتتاحية
+Chart Of Accounts Importer,استيراد دليل الحسابات
+Chart of Accounts Importer,استيراد دليل الحسابات
+Chart of accounts importer,استيراد دليل الحسابات
+Period Closing Voucher,قيد إقفال الفترة
+Period closing voucher,قيد إقفال الفترة
+Subscription management,إدارة الاشتراكات
+Subscription Plan,خطة الاشتراك
+Subscription plan,خطة الاشتراك
+Subscription,الاشتراك
+Subscription Settings,إعدادات الاشتراكات
+Subscription settings,إعدادات الاشتراكات
+Share management,إدارة الأسهم
+Shareholder,المساهم
+Share Transfer,نقل الأسهم
+Share transfer,نقل الأسهم
+Share Ledger,سجل الأسهم
+Share ledger,سجل الأسهم
+Share Balance,رصيد الأسهم
+Share balance,رصيد الأسهم
+Reports & masters,التقارير والبيانات الأساسية
+Purchase Invoices,فواتير المشتريات
+Purchase invoices,فواتير المشتريات
+Payment reconciliation,مطابقة الدفعات مع الفواتير
+Accounts payable summary,ملخص الذمم الدائنة
+Purchase register,سجل المشتريات
+Item Wise Purchase Register,سجل المشتريات حسب الصنف
+Item wise purchase register,سجل المشتريات حسب الصنف
+Purchase order analysis,تحليل أوامر الشراء
+Received items to be billed,أصناف مستلمة لم تُفوتر بعد
+Supplier ledger summary,ملخص كشف حساب الموردين
+Job applicant,متقدم للوظيفة
+Job offer,عرض وظيفي
+Staffing plan,خطة القوى العاملة
+Job requisition,طلب احتياج وظيفي
+Interview type,نوع المقابلة
+Interview round,مرحلة المقابلة
+Interview feedback,تقييم المقابلة
+Appointment letter,خطاب التعيين
+Recruitment analytics,تحليلات التوظيف
+Pos Invoice,فاتورة نقطة البيع
+Pos invoice,فاتورة نقطة البيع
+Cost center,مركز التكلفة
+Dunning type,نوع إشعار المطالبة
+Sales register,سجل المبيعات
+Item-Wise Sales Register,سجل المبيعات حسب الصنف
+Item-wise sales register,سجل المبيعات حسب الصنف
+Sales order analysis,تحليل أوامر البيع
+Delivered items to be billed,أصناف مسلّمة لم تُفوتر بعد
+Material request,طلب مواد
+Purchase Order,أمر شراء
+Purchase order,أمر شراء
+Purchase analytics,تحليلات المشتريات
+Purchase Order Analytics,تحليلات أوامر الشراء
+Purchase order analytics,تحليلات أوامر الشراء
+Learn Procurement,دليل إجراءات الشراء
+Learn procurement,دليل إجراءات الشراء
+Purchase invoice,فاتورة مشتريات
+Request For Quotation,طلب عرض سعر
+Request for Quotation,طلب عرض سعر
+Request for quotation,طلب عرض سعر
+Supplier Quotation,عرض سعر مورد
+Supplier quotation,عرض سعر مورد
+Items & pricing,الأصناف والتسعير
+Item price,سعر الصنف
+Price list,قائمة الأسعار
+Product bundle,أصناف مجمّعة للبيع
+Item group,مجموعة الأصناف
+Promotional scheme,برنامج العروض الترويجية
+Pricing rule,قاعدة التسعير
+Buying settings,إعدادات المشتريات
+Terms And Conditions Template,نموذج الشروط والأحكام
+Terms and conditions template,نموذج الشروط والأحكام
+Supplier Group,مجموعة الموردين
+Supplier group,مجموعة الموردين
+Supplier scorecard,بطاقة تقييم المورد
+Supplier Scorecard Variable,عنصر بطاقة تقييم المورد
+Supplier scorecard variable,عنصر بطاقة تقييم المورد
+Supplier Scorecard Criteria,معيار تقييم المورد
+Supplier scorecard criteria,معيار تقييم المورد
+Supplier Scorecard Standing,تصنيف المورد
+Supplier scorecard standing,تصنيف المورد
+Key reports,التقارير الرئيسية
+Supplier-Wise Purchase Analytics,تحليلات المشتريات حسب المورد
+Supplier-wise purchase analytics,تحليلات المشتريات حسب المورد
+Items To Order And Receive,الأصناف المطلوب طلبها واستلامها
+Items to order and receive,الأصناف المطلوب طلبها واستلامها
+Purchase Order Trends,تحليل أوامر الشراء حسب الفترة
+Purchase order trends,تحليل أوامر الشراء حسب الفترة
+Procurement Tracker,متابعة المشتريات
+Procurement tracker,متابعة المشتريات
+Other reports,تقارير أخرى
+Items To Be Requested,الأصناف المطلوب طلبها
+Items to Be Requested,الأصناف المطلوب طلبها
+Items to be requested,الأصناف المطلوب طلبها
+Item Wise Purchase History,سجل مشتريات الأصناف
+Item wise purchase history,سجل مشتريات الأصناف
+Purchase invoice trends,تحليل فواتير المشتريات حسب الفترة
+Purchase receipt trends,تحليل أذون استلام المشتريات حسب الفترة
+Subcontracted raw materials to be transferred,مواد خام مطلوب تحويلها إلى مقاولي الباطن
+Subcontracted item to be received,أصناف مطلوب استلامها من مقاولي الباطن
+Supplier quotation comparison,مقارنة عروض أسعار الموردين
+Material Requests For Which Supplier Quotations Are Not Created,طلبات مواد لم تُنشأ لها عروض أسعار موردين
+Material Requests for Which Supplier Quotations Are Not Created,طلبات مواد لم تُنشأ لها عروض أسعار موردين
+Material requests for which supplier quotations are not created,طلبات مواد لم تُنشأ لها عروض أسعار موردين
+Supplier Addresses And Contacts,عناوين وبيانات اتصال الموردين
+Supplier addresses and contacts,عناوين وبيانات اتصال الموردين
+Import sales invoice,استيراد فواتير المبيعات
+Financial reports,التقارير المالية
+General ledger,دفتر الأستاذ العام
+Customer ledger summary,ملخص كشف حساب العملاء
+Financial statements,القوائم المالية
+Trial balance,ميزان المراجعة
+Profit And Loss Statement,قائمة الدخل
+Profit and loss statement,قائمة الدخل
+Balance sheet,قائمة المركز المالي
+Cash flow,قائمة التدفقات النقدية
+Consolidated financial statement,القوائم المالية الموحدة
+Gross profit,مجمل الربح
+Profitability analysis,تحليل الربحية
+Sales invoice trends,تحليل فواتير المبيعات حسب الفترة
+Trial Balance For Party,ميزان مراجعة العملاء والموردين
+Trial balance for party,ميزان مراجعة العملاء والموردين
+Payment period based on invoice date,فترة السداد حسب تاريخ الفاتورة
+Sales partners commission,عمولات شركاء المبيعات
+Customer credit balance,الرصيد الدائن للعميل
+Sales payment summary,ملخص تحصيلات المبيعات
+Address and contacts,العناوين وبيانات الاتصال
+Sales order,أمر بيع
+Sales invoice,فاتورة مبيعات
+Blanket order,اتفاقية بيع مفتوحة
+Sales partner,شريك المبيعات
+Sales person,مندوب المبيعات
+Point Of Sale,نقطة البيع
+Point of sale,نقطة البيع
+Point-Of-Sale Profile,إعدادات تشغيل نقطة البيع
+Point-of-sale Profile,إعدادات تشغيل نقطة البيع
+Point-of-sale profile,إعدادات تشغيل نقطة البيع
+Pos Settings,الإعدادات العامة لنقاط البيع
+Pos settings,الإعدادات العامة لنقاط البيع
+Pos Opening Entry,فتح وردية نقطة البيع
+Pos opening entry,فتح وردية نقطة البيع
+Pos Closing Entry,إغلاق وردية نقطة البيع
+Pos closing entry,إغلاق وردية نقطة البيع
+Loyalty program,برنامج الولاء
+Loyalty point entry,حركة نقاط الولاء
+Items And Pricing,الأصناف والتسعير
+Items and pricing,الأصناف والتسعير
+Shipping rule,قاعدة احتساب رسوم الشحن
+Coupon code,رمز الخصم
+Selling settings,إعدادات المبيعات
+Lead source,مصدر العميل المحتمل
+Customer group,مجموعة العملاء
+Sales analytics,تحليلات المبيعات
+Sales funnel,مراحل تحويل العملاء المحتملين
+Sales order trends,تحليل أوامر البيع حسب الفترة
+Quotation trends,تحليل عروض الأسعار حسب الفترة
+Customer Acquisition And Loyalty,استقطاب العملاء وولاؤهم
+Customer acquisition and loyalty,استقطاب العملاء وولاؤهم
+Inactive customers,العملاء غير النشطين
+Sales Person-Wise Transaction Summary,ملخص معاملات مندوبي المبيعات
+Sales person-wise transaction summary,ملخص معاملات مندوبي المبيعات
+Item-Wise Sales History,سجل مبيعات الأصناف
+Item-wise sales history,سجل مبيعات الأصناف
+Customer addresses and contacts,عناوين وبيانات اتصال العملاء
+Available Stock For Packing Items,المخزون المتاح لمكونات الأصناف المجمّعة
+Available stock for packing items,المخزون المتاح لمكونات الأصناف المجمّعة
+Pending So Items For Purchase Request,الأصناف المطلوب شراؤها لتغطية أوامر البيع
+Pending so items for purchase request,الأصناف المطلوب شراؤها لتغطية أوامر البيع
+Delivery note trends,تحليل سندات التسليم حسب الفترة
+Customers without any sales transactions,العملاء دون معاملات بيع
+Territory target variance based on item group,مقارنة المستهدف بالمحقق لمناطق البيع حسب مجموعة الأصناف
+Sales person target variance based on item group,مقارنة المستهدف بالمحقق لمندوبي المبيعات حسب مجموعة الأصناف
+Sales partner target variance based on item group,مقارنة المستهدف بالمحقق لشركاء المبيعات حسب مجموعة الأصناف
+Items catalogue,دليل الأصناف
+Item alternative,الصنف البديل
+Item manufacturer,الشركة المصنعة للصنف
+Stock transactions,حركات المخزون
+Stock entry,إذن مخزني
+Delivery note,سند تسليم
+Purchase receipt,إذن استلام مشتريات
+Pick list,قائمة تجهيز الطلبات
+Delivery trip,رحلة التوصيل
+Stock reports,تقارير المخزون
+Stock ledger,سجل حركة المخزون
+Stock balance,رصيد المخزون
+Stock projected qty,الكمية المتوقعة بالمخزون
+Stock summary,ملخص المخزون
+Stock ageing,تحليل أعمار المخزون
+Item price stock,مخزون الأصناف وأسعارها
+Warehouse wise stock balance,أرصدة المخزون حسب المستودع
+Stock settings,إعدادات المخزون
+Unit Of Measure (Uom),وحدة القياس
+Unit of Measure (uom),وحدة القياس
+Unit of measure (uom),وحدة القياس
+Item variant settings,إعدادات متغيرات الأصناف
+Item attribute,خاصية الصنف
+Uom Conversion Factor,معامل تحويل وحدات القياس
+Uom conversion factor,معامل تحويل وحدات القياس
+Serial No And Batch,الأرقام التسلسلية والتشغيلات
+Serial no and batch,الأرقام التسلسلية والتشغيلات
+Serial no,الرقم التسلسلي
+Installation note,محضر التركيب
+Serial no service contract expiry,تاريخ انتهاء عقد صيانة الرقم التسلسلي
+Serial no status,حالة الرقم التسلسلي
+Serial no warranty expiry,تاريخ انتهاء ضمان الرقم التسلسلي
+Stock reconciliation,جرد وتسوية المخزون
+Landed cost voucher,سند تحميل التكاليف على المخزون
+Packing slip,قائمة التعبئة
+Quality inspection,فحص الجودة
+Quality inspection template,نموذج فحص الجودة
+Quick stock balance,استعلام رصيد المخزون
+Stock analytics,تحليلات المخزون
+Item shortage report,تقرير نواقص الأصناف
+Batch-wise Balance History,سجل الأرصدة حسب التشغيلة
+Batch-wise balance history,سجل الأرصدة حسب التشغيلة
+Requested items to be transferred,الأصناف المطلوبة للتحويل
+Batch item expiry status,حالة صلاحية الأصناف حسب التشغيلة
+Item prices,أسعار الأصناف
+Itemwise recommended reorder level,مستوى إعادة الطلب المقترح لكل صنف
+Item variant details,تفاصيل متغيرات الأصناف
+Asset maintenance team,فريق صيانة الأصول
+Asset maintenance,صيانة الأصول
+Asset maintenance log,سجل صيانة الأصول
+Asset value adjustment,تعديل قيمة الأصل
+Asset repair,إصلاح الأصل
+Asset capitalization,رسملة الأصل
+Asset depreciation ledger,سجل إهلاك الأصول
+Asset Depreciations And Balances,إهلاكات وأرصدة الأصول
+Asset depreciations and balances,إهلاكات وأرصدة الأصول
+Asset activity,سجل حركات الأصول
+Asset category,فئة الأصل
+Asset movement,نقل الأصول
+Fixed Asset Register,سجل الأصول الثابتة
+Work order,أمر إنتاج
+Production plan,خطة الإنتاج
+Job card,بطاقة تشغيل
+Downtime entry,تسجيل توقف الإنتاج
+Bill Of Materials,قائمة مكونات المنتج (BOM)
+Bill of materials,قائمة مكونات المنتج (BOM)
+Workstation type,نوع مركز العمل
+Production planning report,تقرير تخطيط الإنتاج
+Work order summary,ملخص أوامر الإنتاج
+Quality inspection summary,ملخص فحوصات الجودة
+Downtime analysis,تحليل أوقات التوقف
+Job card summary,ملخص بطاقات التشغيل
+Bom Search,البحث في قوائم مكونات المنتج
+Bom search,البحث في قوائم مكونات المنتج
+Bom Stock Report,تقرير مخزون قوائم مكونات المنتج
+Bom stock report,تقرير مخزون قوائم مكونات المنتج
+Production analytics,تحليلات الإنتاج
+Bom Operations Time,أوقات عمليات قائمة مكونات المنتج
+Bom operations time,أوقات عمليات قائمة مكونات المنتج
+Work order consumed materials,المواد المستهلكة بأوامر الإنتاج
+Bom Update Tool,أداة تحديث قوائم مكونات المنتج
+Bom update tool,أداة تحديث قوائم مكونات المنتج
+Manufacturing settings,إعدادات التصنيع
+Quality feedback,ملاحظات الجودة
+Quality feedback template,نموذج ملاحظات الجودة
+Goal And Procedure,أهداف وإجراءات الجودة
+Goal and procedure,أهداف وإجراءات الجودة
+Quality goal,هدف الجودة
+Quality procedure,إجراء الجودة
+Tree Of Procedures,هيكل الإجراءات
+Tree of procedures,هيكل الإجراءات
+Quality meeting,اجتماع الجودة
+Review And Action,المراجعات والإجراءات
+Review and action,المراجعات والإجراءات
+Non conformance,عدم المطابقة
+Quality review,مراجعة الجودة
+Quality action,إجراء تصحيحي
+Project template,نموذج مشروع
+Project type,نوع المشروع
+Project update,تحديث المشروع
+Time tracking,تتبع الوقت
+Activity type,نوع النشاط
+Activity cost,تكلفة النشاط
+Daily timesheet summary,ملخص كشوف ساعات العمل اليومية
+Project Wise Stock Tracking,تتبع المخزون حسب المشروع
+Project wise stock tracking,تتبع المخزون حسب المشروع
+Project billing summary,ملخص فوترة المشروع
+Delayed tasks summary,ملخص المهام المتأخرة
+Issue type,نوع التذكرة
+Issue priority,أولوية التذكرة
+Maintenance schedule,جدول الصيانة
+Maintenance visit,زيارة صيانة
+Service level agreement,اتفاقية مستوى الخدمة
+Warranty claim,مطالبة ضمان
+Support settings,إعدادات الدعم
+First Response Time For Issues,وقت الاستجابة الأول لتذاكر الدعم
+First response time for issues,وقت الاستجابة الأول لتذاكر الدعم
+Role profile,ملف صلاحيات الدور
+Module profile,ملف صلاحيات الوحدات
+Activity log,سجل الأنشطة
+Access log,سجل الدخول
+Role permissions manager,إدارة صلاحيات الأدوار
+User permissions,صلاحيات المستخدم
+Role Permission For Page And Report,صلاحيات الأدوار على الصفحات والتقارير
+Role permission for page and report,صلاحيات الأدوار على الصفحات والتقارير
+Permitted documents for user,المستندات المسموح للمستخدم بالوصول إليها
+Document share report,تقرير مشاركة المستندات
+Crm,إدارة علاقات العملاء
+Sales pipeline,مسار المبيعات
+Sales stage,مرحلة البيع
+Lead details,تفاصيل العملاء المحتملين
+Sales pipeline analytics,تحليلات مسار المبيعات
+Opportunity Summary By Sales Stage,ملخص فرص المبيعات حسب المرحلة
+Opportunity summary by sales stage,ملخص فرص المبيعات حسب المرحلة
+Prospects engaged but not converted,عملاء مرتقبون تم التواصل معهم ولم يتحولوا إلى عملاء
+First Response Time For Opportunity,وقت الاستجابة الأول لفرص المبيعات
+First response time for opportunity,وقت الاستجابة الأول لفرص المبيعات
+Campaign efficiency,كفاءة الحملات التسويقية
+Lead owner efficiency,كفاءة مسؤولي العملاء المحتملين
+Email campaign,حملة بريدية
+Sms Center,مركز الرسائل النصية
+Sms center,مركز الرسائل النصية
+Sms Log,سجل الرسائل النصية
+Sms log,سجل الرسائل النصية
+Email group,مجموعة بريدية
+Crm Settings,إعدادات إدارة علاقات العملاء
+Crm settings,إعدادات إدارة علاقات العملاء
+Sms Settings,إعدادات الرسائل النصية
+Sms settings,إعدادات الرسائل النصية
+Import data,استيراد البيانات
+Export data,تصدير البيانات
+Bulk update,تحديث جماعي
+Download backups,تنزيل النسخ الاحتياطية
+Deleted documents,المستندات المحذوفة
+To do,قائمة المهام
+Alerts And Notifications,التنبيهات والإشعارات
+Alerts and notifications,التنبيهات والإشعارات
+Auto email report,إرسال التقارير تلقائيًا بالبريد
+Notification settings,إعدادات الإشعارات
+Email account,حساب البريد الإلكتروني
+Email domain,نطاق البريد الإلكتروني
+Email template,قالب البريد الإلكتروني
+Print format builder,مصمم نماذج الطباعة
+Print Format Builder (new),مصمم نماذج الطباعة (الجديد)
+Print format builder (new),مصمم نماذج الطباعة (الجديد)
+Print settings,إعدادات الطباعة
+Print heading,ترويسة الطباعة
+Assignment rule,قاعدة الإسناد
+Auto repeat,التكرار التلقائي
+Hr,الموارد البشرية
+Employee group,فئة الموظفين
+Employee grade,الدرجة الوظيفية
+Leave application,طلب إجازة
+Compensatory leave request,طلب إجازة تعويضية
+Attendance request,طلب تسجيل أو تصحيح حضور
+Employee checkin,تسجيل حضور وانصراف الموظف
+Expense claim,مطالبة مصروفات
+Employee advance,سلفة موظف
+Travel request,طلب انتداب
+Monthly attendance sheet,كشف الحضور الشهري
+Employee analytics,تحليلات الموظفين
+Employee leave balance,رصيد إجازات الموظف
+Employee leave balance summary,ملخص أرصدة إجازات الموظفين
+Employee advance summary,ملخص سلف الموظفين
+Employee exits,إنهاء خدمات الموظفين
+Employee information,بيانات الموظفين
+Employee birthday,أعياد ميلاد الموظفين
+Employees Working On A Holiday,الموظفون العاملون خلال عطلة رسمية
+Daily work summary replies,ردود ملخصات العمل اليومية
+Appointment letter template,نموذج خطاب التعيين
+Employee lifecycle,دورة حياة الموظف
+Employee onboarding template,نموذج مباشرة عمل الموظف
+Employee onboarding,مباشرة عمل الموظف
+Employee skill map,مصفوفة مهارات الموظفين
+Grievance type,نوع الشكوى أو التظلم
+Employee grievance,شكوى أو تظلم موظف
+Training program,البرنامج التدريبي
+Training event,دورة تدريبية
+Training feedback,تقييم التدريب
+Training result,نتيجة التدريب
+Daily work summary,ملخص العمل اليومي
+Daily work summary group,مجموعة ملخصات العمل اليومية
+Appraisal template,نموذج تقييم الأداء
+Kra,مجالات النتائج الرئيسية (KRA)
+Employee feedback criteria,معايير تقييم الموظف
+Appraisal cycle,دورة تقييم الأداء
+Employee performance feedback,ملاحظات تقييم أداء الموظف
+Energy points,نقاط التحفيز
+Energy point rule,قاعدة نقاط التحفيز
+Energy point settings,إعدادات نقاط التحفيز
+Energy point log,سجل نقاط التحفيز
+Employee promotion,ترقية موظف
+Appraisal overview,نظرة عامة على تقييم الأداء
+Shift & attendance,الورديات والحضور والانصراف
+Shift type,نوع الوردية
+Shift assignment,تعيين وردية
+Shift schedule,جدول الورديات
+Shift schedule assignment,تعيين جدول ورديات
+Shift request,طلب وردية
+Shift assignment tool,أداة توزيع الورديات
+Employee attendance tool,أداة تسجيل حضور الموظفين
+Upload attendance,رفع بيانات الحضور
+Shift attendance,حضور الورديات
+Employee hours utilization based on timesheet,معدل الاستفادة من ساعات الموظفين حسب كشوف ساعات العمل
+Project profitability,ربحية المشاريع
+Expense claims,مطالبات المصروفات
+Expense claim type,نوع مطالبة المصروفات
+Additional salary,استحقاق أو استقطاع إضافي
+Fleet management,إدارة الأسطول
+Vehicle service item,بند صيانة المركبة
+Vehicle log,سجل المركبة
+Vehicle expenses,مصروفات المركبات
+Purpose Of Travel,غرض الانتداب
+Purpose of travel,غرض الانتداب
+Unpaid expense claim,مطالبات مصروفات غير مسددة
+Accounting reports,التقارير المحاسبية
+Accounts receivable,الذمم المدينة
+Holiday list,قائمة العطلات الرسمية
+Leave type,نوع الإجازة
+Leave period,فترة الإجازات
+Leave policy,سياسة الإجازات
+Leave block list,قائمة حظر الإجازات
+Leave allocation,تخصيص رصيد الإجازة
+Leave policy assignment,تعيين سياسة الإجازات
+Leave control panel,لوحة إدارة الإجازات
+Leave encashment,صرف بدل رصيد الإجازات
+Payroll entry,مسير الرواتب
+Erpnext Settings,إعدادات ERPNext
+Erpnext settings,إعدادات ERPNext
+Module settings,إعدادات الوحدات
+Accounts settings,إعدادات الحسابات
+Projects settings,إعدادات المشاريع
+Email / notifications,البريد الإلكتروني والإشعارات
+Website settings,إعدادات الموقع الإلكتروني
+Website theme,مظهر الموقع الإلكتروني
+Website script,كود الموقع الإلكتروني
+About us settings,إعدادات «من نحن»
+Contact us settings,إعدادات «اتصل بنا»
+System settings,إعدادات النظام
+Domain settings,إعدادات مجالات العمل
+Global defaults,الإعدادات الافتراضية العامة
+Print format,نموذج الطباعة
+Print style,نمط الطباعة
+Workflow state,حالة سير العمل
+Workflow action,إجراء سير العمل
+Accounting Dimension,البعد المحاسبي
+Accounts Receivable Summary,ملخص الذمم المدينة
+Attendance Count,عدد أيام الحضور
+Bank Remittance,التحويل البنكي للرواتب
+Benefits,المزايا والبدلات
+Bulk Salary Structure Assignment,إسناد هيكل الرواتب بشكل جماعي
+Dashboard,لوحة المعلومات
+Deduction Reports,تقارير الاستقطاعات
+Department Wise Openings,الشواغر حسب القسم
+Employee Benefit Application,طلب مزايا الموظف
+Employee Benefit Claim,مطالبة مزايا الموظف
+Employee Exit,إنهاء خدمة الموظف
+Employee Incentive,حافز الموظف
+Employee Journey,مسيرة الموظف الوظيفية
+Employee Separation,إنهاء خدمة الموظف
+Employee Separation Template,نموذج إنهاء الخدمة
+Employee Tax Exemption Category,فئة الإعفاء الضريبي للموظف
+Employee Tax Exemption Declaration,إقرار الإعفاء الضريبي للموظف
+Employee Tax Exemption Proof Submission,تقديم إثبات الإعفاء الضريبي
+Employee Tax Exemption Sub Category,الفئة الفرعية للإعفاء الضريبي
+Employee Transfer,نقل الموظف
+Exemption,الإعفاء
+Exit Interview,مقابلة إنهاء الخدمة
+Exits (This Month),المغادرون (هذا الشهر)
+Full and Final Statement,مخالصة نهاية الخدمة
+Incentives,الحوافز
+Income Tax Computation,احتساب ضريبة الدخل
+Income Tax Deductions,استقطاعات ضريبة الدخل
+Income Tax Slab,شرائح ضريبة الدخل
+Interviews (This Week),المقابلات (هذا الأسبوع)
+Item-wise Purchase Register,سجل المشتريات حسب الصنف
+New Hires (This Month),الموظفون الجدد (هذا الشهر)
+Payment Request,طلب دفع
+Payroll,الرواتب
+Payroll Period,فترة الرواتب
+Payroll Reports,تقارير الرواتب
+Professional Tax Deductions,استقطاعات الضريبة المهنية
+Provident Fund Deductions,استقطاعات صندوق الادخار
+Retention Bonus,مكافأة الاستبقاء
+Roster,جدول المناوبات
+Salary Component,مكوّن الراتب
+Salary Payments Based On Payment Mode,مدفوعات الرواتب حسب طريقة الدفع
+Salary Payments via ECS,مدفوعات الرواتب عبر التحويل الإلكتروني
+Salary Payout,صرف الرواتب
+Salary Register,سجل الرواتب
+Salary Slip,قسيمة الراتب
+Salary Structure,هيكل الراتب
+Salary Structure Assignment,إسناد هيكل الراتب
+Salary Withholding,حجز الراتب
+Tax & Benefits,الضرائب والمزايا
+Tax Setup,إعداد الضرائب
+Trainings (This Week),التدريبات (هذا الأسبوع)
+UAE VAT 201,إقرار ضريبة القيمة المضافة الإماراتي (VAT 201)
+Received Items to Be Billed,أصناف مستلمة لم تُفوتر بعد
+Delivered Items to Be Billed,أصناف مسلّمة لم تُفوتر بعد
+Items to Order and Receive,الأصناف المطلوب طلبها واستلامها
+Subcontracted Raw Materials to Be Transferred,مواد خام مطلوب تحويلها إلى مقاولي الباطن
+Subcontracted Item to Be Received,أصناف مطلوب استلامها من مقاولي الباطن
+Payment Period Based on Invoice Date,فترة السداد حسب تاريخ الفاتورة
+Address and Contacts,العناوين وبيانات الاتصال
+Customer Addresses and Contacts,عناوين وبيانات اتصال العملاء
+Pending SO Items for Purchase Request,الأصناف المطلوب شراؤها لتغطية أوامر البيع
+Territory Target Variance Based on Item Group,مقارنة المستهدف بالمحقق لمناطق البيع حسب مجموعة الأصناف
+Sales Person Target Variance Based on Item Group,مقارنة المستهدف بالمحقق لمندوبي المبيعات حسب مجموعة الأصناف
+Sales Partner Target Variance Based on Item Group,مقارنة المستهدف بالمحقق لشركاء المبيعات حسب مجموعة الأصناف
+Unit Of Measure (UOM),وحدة القياس
+Requested Items to Be Transferred,الأصناف المطلوبة للتحويل
+Permitted Documents for User,المستندات المسموح للمستخدم بالوصول إليها
+Employee Hours Utilization Based on Timesheet,معدل الاستفادة من ساعات الموظفين حسب كشوف ساعات العمل
+Pending So Items for Purchase Request,الأصناف المطلوب شراؤها لتغطية أوامر البيع
+Unit of Measure (Uom),وحدة القياس
+Unit Of Measure (uom),وحدة القياس
+Full And Final Statement,مخالصة نهاية الخدمة
+Salary Payments Based on Payment Mode,مدفوعات الرواتب حسب طريقة الدفع
+Salary Payments Via ECS,مدفوعات الرواتب عبر التحويل الإلكتروني
+Unit of measure (UOM),وحدة القياس
+Print Format Builder (NEW),مصمم نماذج الطباعة (الجديد)
+Print format builder (NEW),مصمم نماذج الطباعة (الجديد)

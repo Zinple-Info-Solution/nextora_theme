@@ -1,0 +1,438 @@
+// ============================================================
+// Nextora Futuristic v2 — fresh, smooth, unified design layer
+// Import AFTER _polish and BEFORE _rtl.
+// Auto-adapts to light/dark; RTL-safe; respects reduced motion.
+// ============================================================
+
+:root {
+  --nx-accent-1: #6366f1;
+  --nx-accent-2: #06b6d4;
+  --nx-accent-3: #8b5cf6;
+  --nx-grad: linear-gradient(120deg, var(--nx-accent-1), var(--nx-accent-2));
+  --nx-grad-warm: linear-gradient(120deg, var(--nx-accent-3), var(--nx-accent-1));
+  --nx-grad-soft: linear-gradient(120deg, rgba(99,102,241,.10), rgba(6,182,212,.10));
+  --nx-glass-bg: rgba(255, 255, 255, 0.72);
+  --nx-glass-border: rgba(15, 23, 42, 0.06);
+  --nx-surface: #ffffff;
+  --nx-ink-soft: rgba(15, 23, 42, 0.55);
+  --nx-glow: 0 0 0 3px rgba(99, 102, 241, 0.16);
+  --nx-card-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+  --nx-card-shadow-hover: 0 14px 34px rgba(15, 23, 42, 0.12);
+  --nx-radius: 14px;
+  --nx-radius-sm: 10px;
+  --nx-ease: cubic-bezier(.22, .61, .36, 1);
+}
+
+body.dv-dark-style,
+html[data-theme="dark"] {
+  --nx-glass-bg: rgba(17, 24, 39, 0.66);
+  --nx-glass-border: rgba(255, 255, 255, 0.07);
+  --nx-surface: #111827;
+  --nx-ink-soft: rgba(226, 232, 240, 0.55);
+  --nx-card-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  --nx-card-shadow-hover: 0 14px 34px rgba(0, 0, 0, 0.5);
+  --nx-glow: 0 0 0 3px rgba(6, 182, 212, 0.22);
+}
+
+// ---------- Ambient canvas: faint aurora behind everything ----------
+.dv-app-theme .dv-app-content {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(600px 340px at 12% -6%, rgba(99, 102, 241, 0.07), transparent 60%),
+      radial-gradient(560px 320px at 96% 8%, rgba(6, 182, 212, 0.06), transparent 60%),
+      radial-gradient(520px 380px at 55% 110%, rgba(139, 92, 246, 0.05), transparent 60%);
+  }
+
+  > * { position: relative; z-index: 1; }
+}
+
+// ---------- Text selection & smooth link feel ----------
+::selection {
+  background: rgba(99, 102, 241, 0.22);
+}
+
+a {
+  transition: color .15s var(--nx-ease);
+}
+
+// ---------- Focus visibility everywhere (keyboard-friendly) ----------
+:focus-visible {
+  outline: 2px solid var(--nx-accent-1);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+// ---------- Glass navbar ----------
+.dv-navbar {
+  background: var(--nx-glass-bg) !important;
+  backdrop-filter: blur(16px) saturate(1.5);
+  -webkit-backdrop-filter: blur(16px) saturate(1.5);
+  border-bottom: 1px solid var(--nx-glass-border);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset, 0 2px 18px rgba(15,23,42,.05);
+}
+
+// ---------- Glass side menu with accent rail ----------
+.side-menu {
+  background: var(--nx-glass-bg);
+  backdrop-filter: blur(16px) saturate(1.5);
+  -webkit-backdrop-filter: blur(16px) saturate(1.5);
+  border-right: 1px solid var(--nx-glass-border);
+
+  .side-menu-items a,
+  .modules-menu a {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--nx-radius-sm);
+    transition: background-color .2s var(--nx-ease), color .2s var(--nx-ease);
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset-inline-start: 0;
+      top: 22%;
+      bottom: 22%;
+      width: 3px;
+      border-radius: 3px;
+      background: var(--nx-grad);
+      opacity: 0;
+      transform: scaleY(.4);
+      transition: opacity .22s var(--nx-ease), transform .22s var(--nx-ease);
+    }
+
+    &:hover,
+    &.active {
+      background: var(--nx-grad-soft);
+
+      &::before { opacity: 1; transform: scaleY(1); }
+    }
+  }
+
+  .side-menu-icons > ul > li.active > a {
+    background: var(--nx-grad-soft);
+    box-shadow: inset 0 0 0 1px rgba(99, 102, 241, 0.20);
+    border-radius: var(--nx-radius-sm);
+  }
+}
+
+// ---------- Page head: floating glass bar ----------
+.page-head {
+  background: var(--nx-glass-bg) !important;
+  backdrop-filter: blur(12px) saturate(1.3);
+  -webkit-backdrop-filter: blur(12px) saturate(1.3);
+  border-bottom: 1px solid var(--nx-glass-border);
+}
+
+.page-title .title-text,
+.title-area .title-text {
+  letter-spacing: -0.015em;
+  background: linear-gradient(100deg, currentColor 55%, var(--nx-accent-1));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+// ---------- Gentle page entrance ----------
+@keyframes nx-page-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.page-container .page-body,
+.layout-main-section-wrapper {
+  animation: nx-page-in .3s var(--nx-ease) both;
+}
+
+// ---------- Form tabs: animated gradient underline ----------
+.form-tabs-list {
+  .form-tabs .nav-item .nav-link {
+    position: relative;
+    transition: color .18s var(--nx-ease);
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset-inline: 8px;
+      bottom: 0;
+      height: 3px;
+      border-radius: 3px 3px 0 0;
+      background: var(--nx-grad);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform .25s var(--nx-ease);
+    }
+
+    &:hover::after { transform: scaleX(.5); }
+
+    &.active::after { transform: scaleX(1); }
+  }
+}
+
+// ---------- Form sections: soft cards with accent dot ----------
+.form-section,
+.form-dashboard-section {
+  border-radius: var(--nx-radius);
+
+  .section-head {
+    letter-spacing: -0.01em;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-inline-end: 8px;
+      border-radius: 50%;
+      background: var(--nx-grad);
+      vertical-align: 2px;
+    }
+  }
+}
+
+// ---------- Inputs: calm surfaces, neon focus ----------
+.form-control,
+.frappe-control input,
+.frappe-control select,
+.frappe-control textarea,
+input.input-with-feedback {
+  border-radius: var(--nx-radius-sm) !important;
+  transition: box-shadow .16s var(--nx-ease), border-color .16s var(--nx-ease), background-color .16s var(--nx-ease);
+
+  &:hover:not(:focus) {
+    border-color: rgba(99, 102, 241, 0.35);
+  }
+
+  &:focus {
+    box-shadow: var(--nx-glow) !important;
+    border-color: var(--nx-accent-1) !important;
+  }
+}
+
+input[type="checkbox"] {
+  accent-color: var(--nx-accent-1);
+}
+
+// ---------- Buttons ----------
+.btn {
+  border-radius: var(--nx-radius-sm);
+  transition: box-shadow .2s var(--nx-ease), transform .15s var(--nx-ease), background-color .2s var(--nx-ease);
+}
+
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  border: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    inset-inline-start: -70%;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(105deg, transparent, rgba(255,255,255,.35), transparent);
+    transform: skewX(-20deg);
+    transition: inset-inline-start .5s var(--nx-ease);
+  }
+
+  &:hover {
+    box-shadow: 0 6px 18px rgba(99, 102, 241, 0.32);
+    transform: translateY(-1px);
+
+    &::after { inset-inline-start: 120%; }
+  }
+
+  &:active { transform: translateY(0) scale(.99); }
+}
+
+.btn-default:hover,
+.btn-secondary:hover {
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.10);
+  transform: translateY(-1px);
+}
+
+// ---------- Widgets / dashboard cards ----------
+.widget,
+.dashboard-widget-box,
+.number-widget-box,
+.links-widget-box {
+  border-radius: var(--nx-radius) !important;
+  box-shadow: var(--nx-card-shadow);
+  border: 1px solid var(--nx-glass-border);
+  transition: transform .24s var(--nx-ease), box-shadow .24s var(--nx-ease), border-color .24s var(--nx-ease);
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--nx-card-shadow-hover);
+    border-color: rgba(99, 102, 241, 0.26);
+  }
+}
+
+.number-widget-box .widget-content .number {
+  background: var(--nx-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.shortcut-widget-box {
+  border-radius: 12px !important;
+  transition: transform .2s var(--nx-ease), box-shadow .2s var(--nx-ease);
+
+  &:hover {
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.16);
+  }
+}
+
+// ---------- List view: airy rows, sticky glass header ----------
+.list-row-head {
+  background: var(--nx-glass-bg) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: var(--nx-radius-sm) var(--nx-radius-sm) 0 0;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  font-size: 11px;
+  color: var(--nx-ink-soft);
+}
+
+.list-row:not(.list-row-head) {
+  transition: background-color .15s var(--nx-ease), box-shadow .15s var(--nx-ease);
+
+  &:hover {
+    background: var(--nx-grad-soft);
+    box-shadow: inset 3px 0 0 var(--nx-accent-1);
+  }
+}
+
+body.frappe-rtl .list-row:not(.list-row-head):hover {
+  box-shadow: inset -3px 0 0 var(--nx-accent-1);
+}
+
+// ---------- Grid (child tables) ----------
+.grid-heading-row {
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  font-size: 11px;
+  color: var(--nx-ink-soft);
+}
+
+.grid-row:hover {
+  background: var(--nx-grad-soft);
+}
+
+// ---------- Dropdowns & menus: glass ----------
+.dropdown-menu {
+  border-radius: var(--nx-radius-sm);
+  border: 1px solid var(--nx-glass-border);
+  background: var(--nx-glass-bg);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+  animation: nx-pop .18s var(--nx-ease) both;
+
+  .dropdown-item {
+    border-radius: 8px;
+    margin: 1px 4px;
+    transition: background-color .14s var(--nx-ease);
+
+    &:hover { background: var(--nx-grad-soft); }
+  }
+}
+
+@keyframes nx-pop {
+  from { opacity: 0; transform: translateY(-4px) scale(.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+// ---------- Modals ----------
+.modal-content {
+  border-radius: var(--nx-radius);
+  border: 1px solid var(--nx-glass-border);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.25);
+  animation: nx-modal-in .26s var(--nx-ease) both;
+}
+
+.modal-backdrop.show {
+  backdrop-filter: blur(3px);
+}
+
+@keyframes nx-modal-in {
+  from { opacity: 0; transform: translateY(10px) scale(.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+// ---------- Avatars: gradient ring ----------
+.avatar-frame,
+.avatar .avatar-frame {
+  box-shadow: 0 0 0 2px var(--nx-surface), 0 0 0 4px rgba(99, 102, 241, 0.35);
+  transition: box-shadow .2s var(--nx-ease);
+
+  &:hover {
+    box-shadow: 0 0 0 2px var(--nx-surface), 0 0 0 4px var(--nx-accent-2);
+  }
+}
+
+// ---------- Badges & indicators ----------
+.indicator-pill {
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+
+// ---------- Alerts / toasts ----------
+.alert,
+.desk-alert {
+  border-radius: var(--nx-radius-sm);
+  border: 1px solid var(--nx-glass-border);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.14);
+}
+
+// ---------- Timeline / comments ----------
+.timeline-item .timeline-content,
+.comment-box {
+  border-radius: var(--nx-radius-sm);
+  transition: box-shadow .18s var(--nx-ease);
+
+  &:hover { box-shadow: var(--nx-card-shadow); }
+}
+
+// ---------- Scrollbar (refined) ----------
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.35) transparent;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(99,102,241,.45), rgba(6,182,212,.45));
+  border-radius: 8px;
+
+  &:hover { background: var(--nx-grad); }
+}
+
+// ---------- Reduced motion ----------
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+// ---------- RTL guards ----------
+body.frappe-rtl {
+  .side-menu {
+    border-right: none;
+    border-left: 1px solid var(--nx-glass-border);
+  }
+}
