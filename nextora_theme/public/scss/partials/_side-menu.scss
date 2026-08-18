@@ -705,3 +705,375 @@
 .side-menu .modules-menu {
   overflow: auto;
 }
+
+/* ============================================================
+   Side Menu — Modern Polish Layer (v2)
+   Appended enhancements: refined icon rail, active indicator,
+   smoother cards, indented sub-links, custom scrollbars,
+   section headers, and dark-mode support.
+   RTL variant is generated automatically at build time.
+   ============================================================ */
+
+.side-menu {
+  box-shadow: 1px 0px 12px -6px rgba(15, 30, 60, 0.12);
+
+  /* ---- Icon rail ---- */
+  .side-menu-icons {
+    background: linear-gradient(180deg, #fafbfe 0%, #f4f6fb 100%);
+
+    > ul > li {
+      margin: 6px 12px;
+
+      > a {
+        position: relative;
+        border-radius: 12px;
+        font-size: 22px;
+
+        &:hover {
+          background: #ffffff;
+          border-color: transparent;
+          box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.18);
+          transform: translateY(-1px);
+        }
+      }
+
+      &.active > a {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+        box-shadow: 0px 6px 14px -5px var(--primary);
+
+        /* active indicator bar on rail edge */
+        &:after {
+          content: '';
+          position: absolute;
+          left: -15px;
+          top: 10px;
+          bottom: 10px;
+          width: 4px;
+          border-radius: 0px 4px 4px 0px;
+          background: var(--primary);
+        }
+      }
+    }
+
+    &.menu-icons-with-label > ul > li {
+      > a > div {
+        border-radius: 12px;
+      }
+
+      > a > span {
+        font-weight: 600;
+        letter-spacing: 0.2px;
+      }
+
+      &.active > a > div {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+        box-shadow: 0px 6px 14px -5px var(--primary);
+      }
+    }
+  }
+
+  /* ---- Items panel ---- */
+  .side-menu-items {
+    background: #ffffff;
+
+    /* search box */
+    .side-menu-search {
+      .form-control {
+        background: #f4f6fb;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        height: 34px;
+        transition: all 0.2s ease-in-out;
+
+        &:focus {
+          background: #ffffff;
+          border-color: var(--primary);
+          box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.04);
+        }
+      }
+
+      i.fa-search {
+        top: 11px;
+      }
+    }
+
+    /* tabs (Menu / Shortcuts) */
+    .side-menu-tabs > ul {
+      border-bottom-color: #eceff5;
+
+      > li > a {
+        border-radius: 8px 8px 0px 0px;
+        letter-spacing: 0.2px;
+      }
+
+      > li.active > a {
+        border-top-color: #eceff5;
+        border-right-color: #eceff5;
+        border-left-color: #eceff5;
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          left: 10px;
+          right: 10px;
+          bottom: -1px;
+          height: 3px;
+          border-radius: 3px 3px 0px 0px;
+          background: var(--primary);
+        }
+      }
+    }
+
+    /* module heading divider */
+    > ul > li.navigation-divider {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #8a94a6;
+      border-bottom: 1px dashed #e6eaf2;
+      margin-bottom: 12px;
+
+      .navigation-divider-module-name .sub-menu-icon {
+        color: var(--primary);
+        opacity: 1;
+      }
+    }
+
+    /* dropdown section cards */
+    > ul.dropdown-list > li {
+      > a {
+        background: #f7f9fd;
+        border: 1px solid #e6eaf2;
+        border-radius: 10px;
+        margin: 0px 12px 8px 12px;
+        padding: 9px 14px;
+        position: relative;
+        overflow: hidden;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          bottom: 0px;
+          width: 3px;
+          background: var(--primary);
+          opacity: 0;
+          transition: opacity 0.2s ease-in-out;
+        }
+
+        &:hover {
+          background: #ffffff;
+          box-shadow: 0px 4px 10px -6px rgba(0, 0, 0, 0.25);
+
+          &:before {
+            opacity: 1;
+          }
+        }
+      }
+
+      /* sub links with indent guide */
+      > ul {
+        position: relative;
+        margin: 2px 0px 14px 0px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 22px;
+          top: 4px;
+          bottom: 4px;
+          width: 2px;
+          border-radius: 2px;
+          background: #e6eaf2;
+        }
+
+        > li > a {
+          margin: 0px 15px 2px 34px;
+          padding: 5px 8px;
+          border-radius: 6px;
+          font-weight: 500;
+          color: #5a6474;
+
+          &:before {
+            content: '';
+            background: #b9c2d0;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            margin: 0px 8px 0px 0px;
+            position: relative;
+            top: -2px;
+            font-weight: normal;
+            transition: all 0.2s ease-in-out;
+          }
+
+          &:hover {
+            background: #f4f6fb;
+            color: var(--primary);
+
+            &:before {
+              background: var(--primary);
+              margin-right: 8px;
+            }
+          }
+        }
+
+        > li.active > a {
+          background: var(--subtle-fg, #eef2fb);
+          color: var(--primary);
+          font-weight: 700;
+
+          &:before {
+            background: var(--primary);
+          }
+        }
+      }
+
+      &.active > a {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+        border-color: var(--primary);
+        box-shadow: 0px 6px 14px -6px var(--primary);
+
+        &:before {
+          opacity: 0;
+        }
+      }
+    }
+
+    /* shortcuts */
+    > ul.shortcuts-list > li > a {
+      background: #f7f9fd;
+      border: 1px solid #e6eaf2;
+      border-radius: 10px;
+
+      &:hover {
+        background: #ffffff;
+        box-shadow: 0px 4px 10px -6px rgba(0, 0, 0, 0.25);
+        transform: translateX(2px);
+      }
+    }
+
+    /* flat links list */
+    .links-list > li > a {
+      padding: 5px 8px;
+      margin: 0px 12px 2px 16px;
+      border-radius: 6px;
+
+      &:hover {
+        background: #f4f6fb;
+      }
+    }
+  }
+}
+
+/* ---- Slim custom scrollbars inside the menu ---- */
+.side-menu ::-webkit-scrollbar,
+.side-mobile-menu::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.side-menu ::-webkit-scrollbar-thumb,
+.side-mobile-menu::-webkit-scrollbar-thumb {
+  background: #ccd3df;
+  border-radius: 5px;
+}
+
+.side-menu ::-webkit-scrollbar-thumb:hover,
+.side-mobile-menu::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* ---- Mobile menu polish ---- */
+.side-mobile-menu {
+  border-radius: 0px 12px 12px 0px;
+
+  > ul.mobile-modules-list > li > a {
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  > ul.mobile-modules-menu-list > li > a {
+    border-radius: 10px;
+  }
+}
+
+/* ---- Dark theme support for the polish layer ---- */
+body.dv-dark-style,
+html[data-theme-mode="dark"] body {
+  .side-menu {
+    box-shadow: 1px 0px 12px -6px rgba(0, 0, 0, 0.5);
+
+    .side-menu-icons {
+      background: linear-gradient(180deg, #1c2128 0%, #16191f 100%);
+
+      > ul > li > a:hover {
+        background: #262c35;
+        box-shadow: none;
+      }
+    }
+
+    .side-menu-items {
+      background: #1c2128;
+
+      .side-menu-search .form-control {
+        background: #262c35;
+
+        &:focus {
+          background: #1c2128;
+        }
+      }
+
+      > ul > li.navigation-divider {
+        color: #9aa4b5;
+        border-bottom-color: #2c333d;
+      }
+
+      > ul.dropdown-list > li {
+        > a {
+          background: #232932;
+          border-color: #2c333d;
+          color: #c3cbd8;
+
+          &:hover {
+            background: #262c35;
+          }
+        }
+
+        > ul {
+          &:before {
+            background: #2c333d;
+          }
+
+          > li > a {
+            color: #9aa4b5;
+
+            &:hover {
+              background: #232932;
+            }
+          }
+
+          > li.active > a {
+            background: #262c35;
+          }
+        }
+      }
+
+      > ul.shortcuts-list > li > a {
+        background: #232932;
+        border-color: #2c333d;
+        color: #c3cbd8;
+
+        &:hover {
+          background: #262c35;
+        }
+      }
+
+      .links-list > li > a:hover {
+        background: #232932;
+      }
+    }
+  }
+}

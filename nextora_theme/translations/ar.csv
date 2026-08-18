@@ -52,7 +52,7 @@ share transfer,نقل الأسهم
 share ledger,سجل الأسهم
 share balance,رصيد الأسهم
 Payables,الذمم الدائنة
-Reports & Masters,التقارير والبيانات الأساسية
+Reports & Masters,التقارير والملفات الرئيسية
 purchase invoices,فواتير المشتريات
 supplier,المورد
 payments,المدفوعات
@@ -1120,3 +1120,20 @@ Salary Payments Via ECS,مدفوعات الرواتب عبر التحويل ال
 Unit of measure (UOM),وحدة القياس
 Print Format Builder (NEW),مصمم نماذج الطباعة (الجديد)
 Print format builder (NEW),مصمم نماذج الطباعة (الجديد)
+Plant Floor,أرضيات النباتات
+BOM Creator,منشئ قائمة المواد
+Forecasting,التنبؤ
+Published,نُشر
+Active,نشيط
+Communication Channels,قنوات الاتصال
+Create Salary Component,إنشاء مكون الراتب
+Create Payroll Period,إنشاء فترة الرواتب
+Create Income Tax Slab,إنشاء شريحة ضريبة الدخل
+Create & Assign Salary Structure,إنشاء وتخصيص هيكل الرواتب
+Draft,مسودة
+Unclaimed,غير مطالب به
+Pending,قيد الانتظار
+Total Incoming Payment,إجمالي المدفوعات الواردة
+Total Incoming Bills,إجمالي الفواتير الواردة
+Total Outgoing Bills,إجمالي الفواتير الصادرة
+Total Outgoing Payment,إجمالي المدفوعات الصادرة
